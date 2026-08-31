@@ -8,7 +8,6 @@ import { BrandexYouTubePlayer } from "@/components/learning/BrandexYouTubePlayer
 import { QuizRunnerModal } from "@/components/quiz/QuizRunnerModal";
 
 export default function ClassroomHubPage() {
-  // Default selected class & subject & lesson
   const [selectedClassId, setSelectedClassId] = useState<string>("class-8");
   const [selectedSubjectSlug, setSelectedSubjectSlug] = useState<string>("science");
   
@@ -23,29 +22,31 @@ export default function ClassroomHubPage() {
   const [activeChapter, setActiveChapter] = useState<Chapter>(defaultChapter);
   const [isQuizOpen, setIsQuizOpen] = useState(false);
 
-  // Flatten lessons for current subject
   const allSubjectLessons = currentSubject.chapters.flatMap((ch) =>
     ch.topics.flatMap((top) => top.lessons.map((l) => ({ lesson: l, chapter: ch })))
   );
 
   return (
-    <div className="min-h-screen bg-slate-950 text-white flex flex-col">
-      {/* Classroom Mode Header */}
-      <div className="flex items-center justify-between px-4 lg:px-8 py-3.5 bg-slate-900 border-b border-slate-800">
-        <div className="flex items-center gap-4">
+    <div className="h-[calc(100vh-64px)] flex flex-col bg-[#070B14] text-white overflow-hidden select-none">
+      
+      {/* Top Classroom Bar */}
+      <div className="h-14 px-4 sm:px-6 bg-[#0B1120] border-b border-slate-800/80 flex items-center justify-between shrink-0">
+        <div className="flex items-center gap-3">
           <Link
             href="/"
-            className="flex items-center gap-1.5 text-xs font-bold text-slate-400 hover:text-white transition-colors"
+            className="flex items-center gap-1.5 text-xs font-bold text-slate-400 hover:text-white transition-colors bg-slate-800/60 px-3 py-1.5 rounded-lg border border-slate-700/60"
           >
-            <ArrowLeft className="w-4 h-4" /> Exit
+            <ArrowLeft className="w-3.5 h-3.5" /> Exit
           </Link>
-          <div className="h-4 w-px bg-slate-800" />
+          
+          <div className="h-4 w-px bg-slate-800 hidden sm:block" />
+          
           <div className="flex items-center gap-2">
-            <span className="flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-blue-500/20 text-blue-400 font-mono text-xs font-bold uppercase tracking-wider border border-blue-500/30">
+            <span className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-indigo-500/20 text-indigo-400 font-mono text-xs font-bold uppercase tracking-wider border border-indigo-500/30">
               <Tv className="w-3.5 h-3.5" /> Classroom Theater
             </span>
-            <span className="text-xs text-slate-400 hidden sm:inline">
-              Optimized for Smartboards &amp; Projectors
+            <span className="text-xs text-slate-400 hidden md:inline font-medium">
+              Karnataka State Syllabus • Smartboard Mode
             </span>
           </div>
         </div>
@@ -64,7 +65,7 @@ export default function ClassroomHubPage() {
                 setActiveLesson(ch.topics[0].lessons[0]);
               }
             }}
-            className="bg-slate-800 border border-slate-700 text-xs font-bold text-slate-200 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-blue-500"
+            className="bg-slate-800/90 border border-slate-700 text-xs font-bold text-slate-200 rounded-lg px-3 py-1.5 focus:outline-hidden focus:ring-1 focus:ring-indigo-500 cursor-pointer"
           >
             {CURRICULUM_DATA.map((cls) => (
               <option key={cls.id} value={cls.id}>
@@ -84,7 +85,7 @@ export default function ClassroomHubPage() {
                 setActiveLesson(ch.topics[0].lessons[0]);
               }
             }}
-            className="bg-slate-800 border border-slate-700 text-xs font-bold text-slate-200 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-blue-500"
+            className="bg-slate-800/90 border border-slate-700 text-xs font-bold text-slate-200 rounded-lg px-3 py-1.5 focus:outline-hidden focus:ring-1 focus:ring-indigo-500 cursor-pointer"
           >
             {currentClass.subjects.map((sub) => (
               <option key={sub.slug} value={sub.slug}>
@@ -95,51 +96,59 @@ export default function ClassroomHubPage() {
         </div>
       </div>
 
-      {/* Main Classroom Screen Layout */}
-      <div className="flex-1 flex flex-col lg:flex-row overflow-hidden">
-        {/* Main Stage (Player & Lesson Title) */}
-        <div className="flex-1 p-4 lg:p-8 flex flex-col justify-center max-h-full overflow-y-auto">
-          <div className="max-w-6xl w-full mx-auto space-y-4">
-            <div className="rounded-2xl overflow-hidden shadow-2xl border border-slate-800 aspect-video bg-black">
-              <BrandexYouTubePlayer
-                videoId={activeLesson.youtubeId}
+      {/* Main 2-Pane Workspace */}
+      <div className="flex-1 flex flex-col lg:flex-row min-h-0 overflow-hidden">
+        
+        {/* Left Stage (Video + Details) */}
+        <div className="flex-1 flex flex-col min-h-0 p-4 sm:p-6 overflow-hidden">
+          
+          {/* Main Video Frame */}
+          <div className="flex-1 min-h-0 w-full flex items-center justify-center">
+            <div className="w-full h-full max-w-6xl aspect-video rounded-xl overflow-hidden shadow-2xl border border-slate-800/90 bg-black flex items-center justify-center">
+              <iframe
+                src={`https://www.youtube-nocookie.com/embed/${activeLesson.youtubeId}?rel=0&modestbranding=1&enablejsapi=1&autoplay=1`}
                 title={activeLesson.title}
-                isClassroomMode={true}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="w-full h-full border-0"
               />
             </div>
-
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/80 rounded-2xl border border-slate-800">
-              <div>
-                <div className="flex items-center gap-2">
-                  <span className="text-[11px] font-mono font-bold uppercase tracking-wider text-blue-400">
-                    {currentClass.name} • {currentSubject.name} • Ch {activeChapter.chapterNumber}
-                  </span>
-                  <span className="text-xs text-slate-500 font-mono">
-                    {activeLesson.duration}
-                  </span>
-                </div>
-                <h1 className="text-xl font-bold text-white mt-1">
-                  {activeLesson.title}
-                </h1>
-              </div>
-
-              {activeLesson.quiz && (
-                <button
-                  onClick={() => setIsQuizOpen(true)}
-                  className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition-colors shadow-lg shadow-emerald-600/30"
-                >
-                  <HelpCircle className="w-4 h-4" />
-                  <span>Start Classroom Quiz</span>
-                </button>
-              )}
-            </div>
           </div>
+
+          {/* Info & Quiz Strip */}
+          <div className="shrink-0 mt-3 max-w-6xl w-full mx-auto flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3.5 bg-[#0B1120] rounded-xl border border-slate-800/80">
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-indigo-400 bg-indigo-500/10 px-2 py-0.5 rounded border border-indigo-500/20">
+                  {currentClass.name} • {currentSubject.name} • Ch {activeChapter.chapterNumber}
+                </span>
+                <span className="text-xs text-slate-400 font-mono">
+                  {activeLesson.duration}
+                </span>
+              </div>
+              <h1 className="text-base sm:text-lg font-bold text-white mt-0.5 truncate">
+                {activeLesson.title}
+              </h1>
+            </div>
+
+            {activeLesson.quiz && (
+              <button
+                onClick={() => setIsQuizOpen(true)}
+                className="flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition-all shadow-md shrink-0 cursor-pointer"
+              >
+                <HelpCircle className="w-3.5 h-3.5" />
+                <span>Start Classroom Quiz</span>
+              </button>
+            )}
+          </div>
+
         </div>
 
-        {/* Right Syllabus Quick Switcher */}
-        <div className="w-full lg:w-96 border-t lg:border-t-0 lg:border-l border-slate-800 bg-slate-900/90 flex flex-col">
-          <div className="p-4 border-b border-slate-800">
-            <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-slate-400">
+        {/* Right Playlist Sidebar */}
+        <div className="w-full lg:w-88 border-t lg:border-t-0 lg:border-l border-slate-800/80 bg-[#0B1120]/95 flex flex-col shrink-0 min-h-0 overflow-hidden">
+          
+          <div className="p-4 border-b border-slate-800/80 shrink-0">
+            <h3 className="text-[11px] font-mono font-bold uppercase tracking-wider text-slate-400">
               Syllabus Playlist
             </h3>
             <p className="text-sm font-bold text-white mt-0.5">
@@ -147,7 +156,7 @@ export default function ClassroomHubPage() {
             </p>
           </div>
 
-          <div className="flex-1 overflow-y-auto p-3 space-y-2 max-h-[40vh] lg:max-h-full">
+          <div className="flex-1 overflow-y-auto p-3 space-y-2 min-h-0">
             {allSubjectLessons.map(({ lesson, chapter }, idx) => {
               const isActive = lesson.id === activeLesson.id;
               return (
@@ -159,15 +168,15 @@ export default function ClassroomHubPage() {
                   }}
                   className={`p-3 rounded-xl cursor-pointer transition-all border ${
                     isActive
-                      ? "bg-blue-950/80 border-blue-500/60 text-white"
-                      : "bg-slate-800/40 border-slate-800/80 hover:bg-slate-800 text-slate-300"
+                      ? "bg-indigo-950/80 border-indigo-500 text-white shadow-xs"
+                      : "bg-slate-900/50 border-slate-800/70 hover:bg-slate-800/70 text-slate-300"
                   }`}
                 >
                   <div className="flex items-center justify-between gap-2">
                     <span className="text-[10px] font-mono text-slate-400">
                       Ch {chapter.chapterNumber} • Lesson {(idx + 1).toString().padStart(2, "0")}
                     </span>
-                    <span className="text-[10px] font-mono text-blue-400">
+                    <span className="text-[10px] font-mono text-indigo-400">
                       {lesson.duration}
                     </span>
                   </div>
@@ -183,17 +192,20 @@ export default function ClassroomHubPage() {
               );
             })}
           </div>
+
         </div>
+
       </div>
 
-      {/* Quiz Modal */}
-      {activeLesson.quiz && isQuizOpen && (
+      {/* Quiz Runner Modal */}
+      {activeLesson.quiz && (
         <QuizRunnerModal
           quiz={activeLesson.quiz}
           isOpen={isQuizOpen}
           onClose={() => setIsQuizOpen(false)}
         />
       )}
+
     </div>
   );
 }
