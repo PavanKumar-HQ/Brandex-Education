@@ -82,3 +82,12 @@
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
 }
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

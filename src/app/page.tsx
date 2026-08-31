@@ -17,18 +17,22 @@ import {
   ChevronDown,
   Layers,
   Star,
-  Quote,
   Zap,
   Target,
   BarChart3,
   MonitorPlay,
   Lightbulb,
+  Compass,
+  Check,
+  X as XIcon,
 } from "lucide-react";
 import { CURRICULUM_DATA } from "@/lib/curriculum-data";
+import { GuidedTourModal, FloatingTourWidget } from "@/components/tour/GuidedTourModal";
 
 export default function ProductLandingPage() {
   const [activeTab, setActiveTab] = useState<number>(0);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [isTourOpen, setIsTourOpen] = useState<boolean>(false);
 
   const featureTabs = [
     {
@@ -137,41 +141,36 @@ export default function ProductLandingPage() {
     },
   ];
 
-  const pedagogySteps = [
+  const comparisonFeatures = [
     {
-      step: "01",
-      title: "Diagnose",
-      desc: "Evaluate foundational concept clarity and readiness before starting a new chapter.",
-      color: "bg-indigo-50 text-indigo-700 border-indigo-200",
-      icon: Target,
+      feature: "Karnataka State Board (KSEEB) Aligned",
+      brandex: true,
+      generic: "Generic / Mixed State",
+      description: "Mapped directly chapter-by-chapter to Karnataka textbooks",
     },
     {
-      step: "02",
-      title: "Learn",
-      desc: "Engage students with curriculum-aligned video lectures and structured visual animations.",
-      color: "bg-blue-50 text-blue-700 border-blue-200",
-      icon: MonitorPlay,
+      feature: "Distraction-Free Smartboard Theater",
+      brandex: true,
+      generic: "Ad-heavy with popups",
+      description: "Custom player controls with zero YouTube watermarks or sidebars",
     },
     {
-      step: "03",
-      title: "Practice",
-      desc: "Walk through step-by-step solved textbook numericals and board exam exercises.",
-      color: "bg-cyan-50 text-cyan-700 border-cyan-200",
-      icon: Lightbulb,
+      feature: "Built-In Formative Quizzes & Feedback",
+      brandex: true,
+      generic: "Requires 3rd party tool",
+      description: "Pre-built assessments for instant classroom comprehension check",
     },
     {
-      step: "04",
-      title: "Assess",
-      desc: "Run instant classroom quizzes to measure real-time retention and comprehension.",
-      color: "bg-emerald-50 text-emerald-700 border-emerald-200",
-      icon: BarChart3,
+      feature: "Zero Student Login Friction",
+      brandex: true,
+      generic: "Complex account setup",
+      description: "Teachers present directly without student credential headaches",
     },
     {
-      step: "05",
-      title: "Master",
-      desc: "Review key takeaways and summary notes aligned with Karnataka State Board patterns.",
-      color: "bg-purple-50 text-purple-700 border-purple-200",
-      icon: Zap,
+      feature: "Installable Offline-Ready PWA",
+      brandex: true,
+      generic: "Web browser only",
+      description: "Caches app shell for reliable performance on school Wi-Fi",
     },
   ];
 
@@ -198,6 +197,22 @@ export default function ProductLandingPage() {
       name: "Praveen Kumar",
       role: "Mathematics Faculty",
       school: "Mangalore Composite PU & High School",
+      rating: 5,
+    },
+    {
+      quote:
+        "No YouTube ads, no distractions, and beautifully structured Karnataka syllabus. Our smartboards feel like dedicated digital learning devices.",
+      name: "Ananya Rao",
+      role: "Academic Coordinator",
+      school: "Hubli Modern English School",
+      rating: 5,
+    },
+    {
+      quote:
+        "The PWA app installed instantly on our classroom laptops. Even when school Wi-Fi fluctuates, teachers can navigate chapters effortlessly.",
+      name: "Kiran Patil",
+      role: "IT & Digital Learning Head",
+      school: "Belgaum Central Academy",
       rating: 5,
     },
   ];
@@ -228,26 +243,42 @@ export default function ProductLandingPage() {
   return (
     <div className="min-h-screen bg-[#FAFAFC] flex flex-col selection:bg-indigo-500 selection:text-white">
       
-      {/* 1. HERO SECTION */}
-      <section className="relative overflow-hidden bg-white pt-14 pb-20 border-b border-slate-200/90">
-        {/* Soft background ambient gradient lights */}
-        <div className="absolute top-0 right-0 w-[700px] h-[600px] bg-gradient-to-bl from-indigo-100/60 via-blue-50/40 to-transparent rounded-full blur-3xl -z-10 translate-x-1/4 -translate-y-1/4" />
-        <div className="absolute bottom-0 left-0 w-[550px] h-[450px] bg-gradient-to-tr from-sky-100/50 via-indigo-50/30 to-transparent rounded-full blur-3xl -z-10 -translate-x-1/4 translate-y-1/4" />
-
+      {/* 1. HERO SECTION (Brought down with comfortable padding, clean image blending, refined typography) */}
+      <section className="relative overflow-hidden bg-white pt-20 sm:pt-28 pb-20 border-b border-slate-200/90">
         <div className="w-full px-6 sm:px-10 lg:px-16 max-w-[1600px] mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             
             {/* Left Content Column */}
             <div className="lg:col-span-6 space-y-7">
+              
+              {/* Mascot Welcome Greeting & Tour Trigger */}
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3 }}
+                className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-indigo-50/90 border border-indigo-100/90 text-indigo-700 text-xs font-semibold"
+              >
+                <div className="w-6 h-6 rounded-full overflow-hidden bg-white border border-indigo-200 shadow-2xs">
+                  <img src="/mascot.png" alt="Nova" className="w-full h-full object-cover" />
+                </div>
+                <span>Hi, I'm Nova!</span>
+                <button
+                  onClick={() => setIsTourOpen(true)}
+                  className="font-bold text-indigo-600 hover:text-indigo-800 underline ml-1 cursor-pointer"
+                >
+                  Take a 1-minute tour →
+                </button>
+              </motion.div>
+
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4 }}
+                transition={{ duration: 0.4, delay: 0.05 }}
                 className="space-y-4"
               >
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-[#0F172A] leading-[1.08]">
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-slate-900 leading-[1.12]">
                   Digital learning <br />
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-600">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-600">
                     built for schools.
                   </span>
                 </h1>
@@ -257,21 +288,29 @@ export default function ProductLandingPage() {
                 </p>
               </motion.div>
 
-              {/* Call To Action Buttons (Single Primary CTA) */}
+              {/* Call To Action Buttons */}
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: 0.1 }}
-                className="flex items-center gap-3.5 pt-1"
+                className="flex items-center gap-4 pt-1"
               >
                 <Link
                   href="/explore"
-                  className="px-8 py-4 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm sm:text-base transition-all shadow-md shadow-indigo-600/20 hover:shadow-indigo-600/30 hover:-translate-y-0.5 flex items-center gap-2.5"
+                  className="px-7 py-3.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm sm:text-base transition-all shadow-md shadow-indigo-600/20 hover:shadow-indigo-600/30 hover:-translate-y-0.5 flex items-center gap-2"
                 >
                   <BookOpen className="w-4 h-4" />
                   <span>Explore Curriculum</span>
                   <ArrowRight className="w-4 h-4 ml-0.5" />
                 </Link>
+
+                <button
+                  onClick={() => setIsTourOpen(true)}
+                  className="px-5 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-700 font-bold text-xs sm:text-sm transition-all border border-slate-200 shadow-2xs hover:border-slate-300 flex items-center gap-2 cursor-pointer"
+                >
+                  <Sparkles className="w-4 h-4 text-indigo-600" />
+                  <span>Quick Tour</span>
+                </button>
               </motion.div>
 
               {/* Trust Indicators */}
@@ -296,22 +335,18 @@ export default function ProductLandingPage() {
               </motion.div>
             </div>
 
-            {/* Right Hero Classroom Showcase Illustration */}
+            {/* Right Hero Illustration (Blends seamlessly with background, no effect or artificial frames) */}
             <motion.div
-              initial={{ opacity: 0, scale: 0.96 }}
+              initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.15 }}
               className="lg:col-span-6 relative flex items-center justify-center"
             >
-              {/* Soft purple ambient backdrop glow */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500/20 via-purple-500/15 to-cyan-400/15 rounded-full blur-3xl -z-10 transform scale-110" />
-
-              {/* Free-standing Hero Illustration without artificial card frames */}
-              <div className="relative w-full max-w-xl group">
+              <div className="relative w-full max-w-lg">
                 <img
                   src="/hero-classroom.png"
                   alt="Brandex Digital Classroom Smartboard Presentation"
-                  className="w-full h-auto object-contain rounded-2xl drop-shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]"
+                  className="w-full h-auto object-contain select-none"
                 />
               </div>
             </motion.div>
@@ -328,7 +363,7 @@ export default function ProductLandingPage() {
             <span className="text-xs font-bold font-mono uppercase tracking-wider text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full border border-indigo-100">
               Transformative Upgrades
             </span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">
               Discover the latest upgrades for schools & teachers
             </h2>
             <p className="text-sm sm:text-base text-slate-600 font-normal">
@@ -366,7 +401,7 @@ export default function ProductLandingPage() {
               {/* Left Details */}
               <div className="lg:col-span-7 space-y-6">
                 <div>
-                  <h3 className="text-2xl sm:text-3xl font-black text-[#0F172A] tracking-tight">
+                  <h3 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
                     {featureTabs[activeTab].tagline}
                   </h3>
                   <p className="text-sm text-slate-600 font-normal mt-2 leading-relaxed">
@@ -377,7 +412,7 @@ export default function ProductLandingPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
                   {featureTabs[activeTab].points.map((pt, i) => (
                     <div key={i} className="p-4 bg-white rounded-xl border border-slate-200/80 shadow-2xs space-y-1">
-                      <h4 className="text-xs font-bold text-[#0F172A] flex items-center gap-1.5">
+                      <h4 className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
                         <CheckCircle2 className="w-3.5 h-3.5 text-indigo-600 shrink-0" />
                         <span>{pt.title}</span>
                       </h4>
@@ -434,55 +469,52 @@ export default function ProductLandingPage() {
         </div>
       </section>
 
-      {/* 3. HOW BRANDEX STANDS APART (PEDAGOGY FLOW) */}
+      {/* 3. HOW WE STAND APART (Comparison Matrix replacing static pedagogy boxes) */}
       <section className="py-20 bg-[#FAFAFC] border-b border-slate-200/90">
         <div className="w-full px-6 sm:px-10 lg:px-16 max-w-[1600px] mx-auto space-y-12">
           
           <div className="text-center max-w-3xl mx-auto space-y-3">
             <span className="text-xs font-bold font-mono uppercase tracking-wider text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full border border-indigo-100">
-              Transformative Pedagogy
+              Why Schools Choose Brandex
             </span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight">
-              A proven 5-step classroom learning cycle
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">
+              How Brandex stands apart from generic platforms
             </h2>
             <p className="text-sm sm:text-base text-slate-600 font-normal">
-              Structured to maximize student understanding and active classroom engagement.
+              Engineered specifically for classroom teachers rather than passive consumer viewing.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
-            {pedagogySteps.map((step) => {
-              const Icon = step.icon;
-              return (
-                <div
-                  key={step.step}
-                  className="bg-white p-6 rounded-2xl border border-slate-200/90 shadow-xs hover:shadow-md hover:border-indigo-400 transition-all flex flex-col justify-between space-y-4"
-                >
-                  <div className="flex items-center justify-between">
-                    <span className="text-xs font-mono font-black text-slate-400">
-                      STEP {step.step}
-                    </span>
-                    <div className={`w-9 h-9 rounded-xl flex items-center justify-center border ${step.color}`}>
-                      <Icon className="w-4 h-4" />
-                    </div>
-                  </div>
+          <div className="max-w-4xl mx-auto bg-white rounded-2xl border border-slate-200/90 shadow-sm overflow-hidden divide-y divide-slate-100">
+            {/* Header row */}
+            <div className="grid grid-cols-12 p-5 bg-slate-50/80 text-xs font-mono font-bold text-slate-500 uppercase tracking-wider">
+              <div className="col-span-6 sm:col-span-7">Feature & Classroom Benefit</div>
+              <div className="col-span-3 sm:col-span-3 text-center text-indigo-700 font-bold">Brandex EDU</div>
+              <div className="col-span-3 sm:col-span-2 text-center text-slate-400">Generic Tools</div>
+            </div>
 
-                  <div className="space-y-1.5">
-                    <h3 className="text-lg font-bold text-[#0F172A] tracking-tight">
-                      {step.title}
-                    </h3>
-                    <p className="text-xs text-slate-500 font-normal leading-relaxed">
-                      {step.desc}
-                    </p>
-                  </div>
+            {comparisonFeatures.map((item, idx) => (
+              <div
+                key={idx}
+                className="grid grid-cols-12 p-5 sm:p-6 items-center hover:bg-slate-50/50 transition-colors"
+              >
+                <div className="col-span-6 sm:col-span-7 pr-4">
+                  <h4 className="text-sm font-bold text-slate-900">{item.feature}</h4>
+                  <p className="text-xs text-slate-500 mt-0.5">{item.description}</p>
+                </div>
 
-                  <div className="pt-2 border-t border-slate-100 text-[11px] font-bold text-indigo-600 flex items-center gap-1">
-                    <span>Explore Step</span>
-                    <ArrowRight className="w-3 h-3" />
+                <div className="col-span-3 sm:col-span-3 flex justify-center">
+                  <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-bold">
+                    <Check className="w-3.5 h-3.5 text-emerald-600 stroke-[3]" />
+                    <span>Included</span>
                   </div>
                 </div>
-              );
-            })}
+
+                <div className="col-span-3 sm:col-span-2 flex justify-center text-center">
+                  <span className="text-xs text-slate-400 font-medium">{item.generic}</span>
+                </div>
+              </div>
+            ))}
           </div>
 
         </div>
@@ -497,7 +529,7 @@ export default function ProductLandingPage() {
               <span className="text-xs font-bold font-mono uppercase tracking-wider text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full border border-indigo-100">
                 Full Curriculum Library
               </span>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight mt-2">
+              <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mt-2">
                 Explore by Class
               </h2>
               <p className="text-sm sm:text-base text-slate-600 mt-1 font-normal">
@@ -535,13 +567,13 @@ export default function ProductLandingPage() {
                   className="group bg-[#FAFAFC] hover:bg-white p-5 sm:p-6 rounded-2xl border border-slate-200/90 hover:border-indigo-500 hover:shadow-lg hover:shadow-indigo-500/10 transition-all duration-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-xs hover:-translate-y-0.5"
                 >
                   <div className="flex items-center gap-4">
-                    <div className="w-13 h-13 rounded-xl bg-indigo-50 group-hover:bg-indigo-600 text-indigo-600 group-hover:text-white border border-indigo-100 flex items-center justify-center font-black text-2xl transition-colors shrink-0 shadow-2xs">
+                    <div className="w-13 h-13 rounded-xl bg-indigo-50 group-hover:bg-indigo-600 text-indigo-600 group-hover:text-white border border-indigo-100 flex items-center justify-center font-bold text-2xl transition-colors shrink-0 shadow-2xs">
                       {cls.grade}
                     </div>
 
                     <div>
                       <div className="flex items-center gap-2.5">
-                        <h3 className="text-xl font-extrabold text-[#0F172A] group-hover:text-indigo-600 transition-colors tracking-tight">
+                        <h3 className="text-xl font-bold text-slate-900 group-hover:text-indigo-600 transition-colors tracking-tight">
                           {cls.name}
                         </h3>
                         <span className="text-xs font-mono font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded-md border border-indigo-100">
@@ -572,52 +604,60 @@ export default function ProductLandingPage() {
         </div>
       </section>
 
-      {/* 5. TEACHER TESTIMONIALS SECTION */}
-      <section className="py-20 bg-[#F8FAFC] border-b border-slate-200/90">
-        <div className="w-full px-6 sm:px-10 lg:px-16 max-w-[1600px] mx-auto space-y-12">
+      {/* 5. INFINITE MARQUEE TESTIMONIALS SECTION */}
+      <section className="py-20 bg-[#F8FAFC] border-b border-slate-200/90 overflow-hidden">
+        <div className="w-full space-y-12">
           
-          <div className="text-center max-w-3xl mx-auto space-y-3">
+          <div className="text-center max-w-3xl mx-auto space-y-3 px-6">
             <span className="text-xs font-bold font-mono uppercase tracking-wider text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full border border-indigo-100">
               Trusted by Educators
             </span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">
               What Karnataka school teachers say
             </h2>
             <p className="text-sm sm:text-base text-slate-600 font-normal">
-              Empowering classrooms across the state with reliable, structured digital curriculum.
+              Empowering classrooms across Karnataka with reliable, structured digital curriculum.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {testimonials.map((t, idx) => (
-              <div
-                key={idx}
-                className="p-8 bg-white rounded-2xl border border-slate-200/90 shadow-xs hover:shadow-md transition-all flex flex-col justify-between space-y-6"
-              >
-                <div className="space-y-4">
-                  <div className="flex items-center gap-1 text-amber-400">
-                    {[...Array(t.rating)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-amber-400" />
-                    ))}
-                  </div>
-                  <p className="text-sm text-slate-600 leading-relaxed font-normal italic">
-                    "{t.quote}"
-                  </p>
-                </div>
+          {/* Continuous Marquee Container with fade edge masks */}
+          <div className="relative w-full overflow-hidden">
+            {/* Left & Right Gradient Shadows */}
+            <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-[#F8FAFC] to-transparent z-10 pointer-events-none" />
+            <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-[#F8FAFC] to-transparent z-10 pointer-events-none" />
 
-                <div className="pt-4 border-t border-slate-100 flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-indigo-600 text-white font-bold flex items-center justify-center text-sm shadow-xs">
-                    {t.name.charAt(0)}
-                  </div>
-                  <div>
-                    <h4 className="text-xs font-bold text-[#0F172A]">{t.name}</h4>
-                    <p className="text-[11px] text-slate-500 font-medium">
-                      {t.role} • {t.school}
+            {/* Scrolling Track */}
+            <div className="flex gap-6 animate-[marquee_35s_linear_infinite] hover:[animation-play-state:paused] w-max py-2">
+              {[...testimonials, ...testimonials].map((t, idx) => (
+                <div
+                  key={idx}
+                  className="w-[380px] sm:w-[420px] p-7 bg-white rounded-2xl border border-slate-200/90 shadow-xs hover:shadow-md transition-all flex flex-col justify-between space-y-5 shrink-0"
+                >
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-1 text-amber-400">
+                      {[...Array(t.rating)].map((_, i) => (
+                        <Star key={i} className="w-4 h-4 fill-amber-400" />
+                      ))}
+                    </div>
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal italic">
+                      "{t.quote}"
                     </p>
                   </div>
+
+                  <div className="pt-3 border-t border-slate-100 flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-indigo-600 text-white font-bold flex items-center justify-center text-sm shadow-xs">
+                      {t.name.charAt(0)}
+                    </div>
+                    <div>
+                      <h4 className="text-xs font-bold text-slate-900">{t.name}</h4>
+                      <p className="text-[11px] text-slate-500 font-medium">
+                        {t.role} • {t.school}
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
 
         </div>
@@ -631,7 +671,7 @@ export default function ProductLandingPage() {
             <span className="text-xs font-bold font-mono uppercase tracking-wider text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full border border-indigo-100">
               Got Questions?
             </span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">
               Frequently Asked Questions
             </h2>
             <p className="text-sm text-slate-600 font-normal">
@@ -649,7 +689,7 @@ export default function ProductLandingPage() {
                 >
                   <button
                     onClick={() => setOpenFaq(isOpen ? null : index)}
-                    className="w-full p-5 sm:p-6 text-left flex items-center justify-between gap-4 font-bold text-sm sm:text-base text-[#0F172A] hover:text-indigo-600 transition-colors cursor-pointer"
+                    className="w-full p-5 sm:p-6 text-left flex items-center justify-between gap-4 font-bold text-sm sm:text-base text-slate-900 hover:text-indigo-600 transition-colors cursor-pointer"
                   >
                     <span>{faq.q}</span>
                     <ChevronDown
@@ -683,13 +723,13 @@ export default function ProductLandingPage() {
       {/* 7. BOTTOM CTA BANNER */}
       <section className="py-24 bg-gradient-to-b from-white to-[#F8FAFC]">
         <div className="w-full px-6 sm:px-10 lg:px-16 max-w-4xl mx-auto text-center space-y-6">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">
             Ready to modernize your classroom learning?
           </h2>
           <p className="text-base text-slate-600 max-w-xl mx-auto font-normal">
             Choose your class and start teaching with curated video modules and assessments today.
           </p>
-          <div className="pt-2">
+          <div className="pt-2 flex flex-wrap justify-center items-center gap-4">
             <Link
               href="/explore"
               className="inline-flex items-center gap-2.5 px-8 py-4 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-base transition-all shadow-md shadow-indigo-600/20 hover:shadow-indigo-600/30 hover:-translate-y-0.5"
@@ -698,9 +738,23 @@ export default function ProductLandingPage() {
               <span>Explore Curriculum Library</span>
               <ArrowRight className="w-4 h-4 ml-0.5" />
             </Link>
+
+            <button
+              onClick={() => setIsTourOpen(true)}
+              className="inline-flex items-center gap-2 px-6 py-4 rounded-xl bg-white hover:bg-slate-50 text-slate-800 font-bold text-sm transition-all border border-slate-200 shadow-2xs hover:border-slate-300 cursor-pointer"
+            >
+              <Sparkles className="w-4 h-4 text-indigo-600" />
+              <span>Take Quick Tour</span>
+            </button>
           </div>
         </div>
       </section>
+
+      {/* Guided Tour Modal */}
+      <GuidedTourModal isOpen={isTourOpen} onClose={() => setIsTourOpen(false)} />
+
+      {/* Floating Tour Assistant Widget with Mascot */}
+      <FloatingTourWidget onOpenTour={() => setIsTourOpen(true)} />
 
     </div>
   );
