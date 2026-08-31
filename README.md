@@ -1,36 +1,152 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Brandex Digital Learning
 
-## Getting Started
+<div align="center">
+  <img src="public/brandex-logo-latest.png" alt="Brandex Digital Learning" width="280" />
+  <p><strong>Curriculum-Organized Educational Video Library & Assessments for Schools</strong></p>
+  <p>Official Karnataka State Board Curriculum Platform (Classes 6 to 10)</p>
+  
+  <p>
+    <a href="https://brandex.co.in"><strong>Official Portal</strong></a> •
+    <a href="#key-features"><strong>Features</strong></a> •
+    <a href="#getting-started"><strong>Getting Started</strong></a> •
+    <a href="#curriculum-structure"><strong>Curriculum</strong></a>
+  </p>
+</div>
 
-First, run the development server:
+---
+
+## 🌟 Overview
+
+**Brandex Digital Learning** is a school-focused digital education platform created by **Brandex**. It delivers syllabus-mapped educational video lessons, interactive classroom presentation tools, and formative assessments for teachers and students across Karnataka State Syllabus (KSEEB).
+
+### 🎯 Primary Goals:
+- **Zero Student Tracking / Frictionless Access**: No passwords to manage during live lectures; instant access to curated classroom content.
+- **Strict Syllabus Alignment**: Organized hierarchically by `Class ➔ Subject ➔ Chapter ➔ Topic ➔ Lesson`.
+- **Smartboard-Ready Presentation**: Dedicated **Classroom Mode** optimized for projectors, smartboards, and interactive panels.
+
+---
+
+## ✨ Key Features
+
+1. **Step-by-Step Learning Hub**:
+   - **Step 1:** Select Class (Classes 6, 7, 8, 9, 10).
+   - **Step 2:** Select Subject (Science, Mathematics, Social Science, English).
+   - **Step 3:** Browse chapter-wise video modules with learning objectives.
+2. **Distraction-Free Classroom Mode**:
+   - Fullscreen presentation player designed for teachers with quick chapter playlist drawer and topic switching.
+3. **Predefined Chapter Quizzes**:
+   - Formative assessment runner with instant feedback, scoring, and explanation reviews.
+4. **Global Lesson Search (`⌘K`)**:
+   - Instant search across all classes, subjects, and topics with keyboard shortcuts.
+5. **Modern Light Design System**:
+   - Built with the clean geometric **Outfit** typography and high-contrast color accents.
+6. **Official Brandex Ecosystem Footer**:
+   - Full social media directory, portal links, contact info, and legal documentation.
+
+---
+
+## 📚 Curriculum Structure
+
+Curated according to **Karnataka State Board (KSEEB)** textbooks:
+
+| Grade | Core Subjects Mapped | Features |
+| :--- | :--- | :--- |
+| **Class 6** | Science, Mathematics, Social Science, English | Chapters, Topics, Quizzes |
+| **Class 7** | Science, Mathematics, Social Science, English | Chapters, Topics, Quizzes |
+| **Class 8** | Science, Mathematics, Social Science, English | Chapters, Topics, Quizzes |
+| **Class 9** | Science, Mathematics, Social Science, English | Chapters, Topics, Quizzes |
+| **Class 10** | Science, Mathematics, Social Science, English | Board Prep Modules & Quizzes |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router, Turbopack)
+- **Styling**: Tailwind CSS & CSS Variables
+- **Typography**: [Outfit](https://fonts.google.com/specimen/Outfit) (`next/font/google`)
+- **Icons**: Lucide React & Brand Vectors
+- **Animations**: Framer Motion
+- **Media Player**: Custom YouTube Embedded Player with Zero-Distraction Overlay
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18.x or later
+- npm or yarn
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/PavanKumar-HQ/Brandex-Education.git
+
+# Navigate to project directory
+cd Brandex-Education
+
+# Install dependencies
+npm install
+
+# Start local development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build & Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Create optimized production build
+npm run build
 
-## Learn More
+# Start production server
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Project Architecture
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+├── public/                     # Brandex logos, favicons, static assets
+├── src/
+│   ├── app/
+│   │   ├── page.tsx            # Front Door Product Landing Page
+│   │   ├── layout.tsx          # Root Layout with Outfit font & metadata
+│   │   ├── explore/            # Step-by-Step Curriculum Hub routes
+│   │   │   ├── page.tsx        # Step 1: Class Selection
+│   │   │   ├── [classId]/      # Step 2: Subject Selection
+│   │   │   │   └── [subjectSlug]/ # Step 3: Chapters & Lessons
+│   │   ├── lesson/[slug]/      # Dedicated Lesson Player & Playlist
+│   │   ├── classroom/          # Fullscreen Classroom Presentation Hub
+│   │   ├── admin/              # Admin CMS Studio
+│   │   └── login/              # Teacher Access Portal
+│   ├── components/
+│   │   ├── brandex/            # Brandex official logos & symbols
+│   │   ├── classroom/          # Classroom Mode Theater Modal
+│   │   ├── layout/             # Navbar, AppShell, BrandexFooter
+│   │   ├── learning/           # YouTube Player wrapper & controls
+│   │   ├── quiz/               # Predefined Quiz Runner
+│   │   └── search/             # Global ⌘K Search Modal
+│   └── lib/
+│       ├── curriculum-data.ts  # Source of truth for syllabus matrix
+│       └── auth-context.tsx    # Auth & session provider
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🏛️ About Brandex
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Brandex Digital Learning** is a product of [Brandex](https://brandex.co.in).
+
+- 🌐 **Portal**: [www.brandex.co.in](https://brandex.co.in)
+- ✉️ **Contact**: brandexhq@gmail.com
+- 📍 **Headquarters**: #121, 13th Main, Binny Layout, Vijaynagar, Bangalore - 560040
+
+---
+
+## 📄 License & Copyright
+
+© 2026 Brandex. All Rights Reserved.  
+Entity ID: `29OGNPS8060K1Z5`
