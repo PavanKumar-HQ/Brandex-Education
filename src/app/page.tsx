@@ -301,40 +301,18 @@ export default function ProductLandingPage() {
               initial={{ opacity: 0, scale: 0.96 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.15 }}
-              className="lg:col-span-6 relative flex justify-center"
+              className="lg:col-span-6 relative flex items-center justify-center"
             >
-              {/* Glow backdrop */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500/10 to-sky-500/10 rounded-3xl blur-2xl -z-10" />
+              {/* Soft purple ambient backdrop glow */}
+              <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500/20 via-purple-500/15 to-cyan-400/15 rounded-full blur-3xl -z-10 transform scale-110" />
 
-              {/* Classroom Illustration Showcase Container */}
-              <div className="bg-white rounded-2xl border border-slate-200/90 shadow-xl p-4 sm:p-6 overflow-hidden relative w-full max-w-xl group">
-                <div className="flex items-center justify-between border-b border-slate-100 pb-3 mb-4">
-                  <div className="flex items-center gap-2">
-                    <span className="w-2.5 h-2.5 rounded-full bg-rose-400" />
-                    <span className="w-2.5 h-2.5 rounded-full bg-amber-400" />
-                    <span className="w-2.5 h-2.5 rounded-full bg-emerald-400" />
-                  </div>
-                  <span className="text-[11px] font-mono font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded-md border border-indigo-100">
-                    Smartboard Classroom Mode
-                  </span>
-                </div>
-
-                <div className="relative rounded-xl overflow-hidden bg-gradient-to-b from-indigo-50/50 to-slate-50 flex items-center justify-center border border-slate-100 shadow-inner">
-                  <img
-                    src="/hero-classroom.png"
-                    alt="Digital Smartboard Classroom Presentation"
-                    className="w-full h-auto object-contain max-h-[360px] group-hover:scale-102 transition-transform duration-500"
-                  />
-                </div>
-
-                <div className="mt-4 flex items-center justify-between text-xs font-semibold text-slate-500 pt-2 border-t border-slate-100">
-                  <span className="flex items-center gap-1.5 text-slate-700">
-                    <Tv className="w-3.5 h-3.5 text-indigo-600" /> Live Teacher Presentation
-                  </span>
-                  <span className="font-mono text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200/60 text-[10px]">
-                    Zero Distraction
-                  </span>
-                </div>
+              {/* Free-standing Hero Illustration without artificial card frames */}
+              <div className="relative w-full max-w-xl group">
+                <img
+                  src="/hero-classroom.png"
+                  alt="Brandex Digital Classroom Smartboard Presentation"
+                  className="w-full h-auto object-contain rounded-2xl drop-shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]"
+                />
               </div>
             </motion.div>
 
