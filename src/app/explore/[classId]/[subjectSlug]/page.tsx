@@ -139,16 +139,24 @@ export default async function SubjectChaptersPage({
                                 </span>
                               </div>
 
-                              <p className="text-xs text-slate-500 line-clamp-2 font-normal leading-relaxed">
+                              <p className="text-xs text-slate-500 font-normal leading-relaxed">
                                 {lesson.description}
                               </p>
 
+                              {/* Topics Covered */}
                               {lesson.learningObjectives?.length > 0 && (
-                                <div className="flex items-center gap-1.5 pt-0.5 text-xs text-slate-500 font-medium">
-                                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                                  <span className="truncate">
-                                    {lesson.learningObjectives[0]}
+                                <div className="pt-2 space-y-1.5">
+                                  <span className="text-[11px] font-mono font-bold uppercase tracking-wider text-slate-500 block">
+                                    Topics Covered in this Lesson:
                                   </span>
+                                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
+                                    {lesson.learningObjectives.map((obj, i) => (
+                                      <div key={i} className="flex items-start gap-1.5 text-xs text-slate-700 bg-slate-50/80 p-2 rounded-lg border border-slate-200/70 font-medium">
+                                        <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />
+                                        <span className="leading-snug">{obj}</span>
+                                      </div>
+                                    ))}
+                                  </div>
                                 </div>
                               )}
                             </div>
@@ -158,7 +166,7 @@ export default async function SubjectChaptersPage({
                           <div className="flex items-center gap-2 self-end lg:self-center shrink-0">
                             <Link
                               href={`/lesson/${lesson.slug}`}
-                              className="flex items-center gap-1.5 px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold transition-all shadow-xs"
+                              className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold transition-all shadow-xs hover:shadow-indigo-600/20 whitespace-nowrap"
                             >
                               <span>Watch Lesson</span>
                               <ArrowRight className="w-3.5 h-3.5" />
