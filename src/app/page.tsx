@@ -230,18 +230,18 @@ export default function ProductLandingPage() {
                 <Link
                   key={cls.id}
                   href={`/explore/${cls.slug}`}
-                  className="group bg-white p-6 rounded-2xl border border-slate-200/90 hover:border-indigo-400 hover:shadow-lg hover:shadow-indigo-500/10 transition-all duration-200 hover:-translate-y-1 flex flex-col justify-between h-64 shadow-xs"
+                  className="group bg-white p-6 rounded-2xl border border-slate-200/90 hover:border-indigo-500 hover:shadow-lg hover:shadow-indigo-500/10 transition-all duration-200 hover:-translate-y-1 flex flex-col justify-between h-64 shadow-xs"
                 >
                   <div className="flex items-center justify-between">
                     <div className="w-12 h-12 rounded-xl bg-indigo-50 group-hover:bg-indigo-600 text-indigo-600 group-hover:text-white border border-indigo-100 flex items-center justify-center font-black text-xl transition-colors duration-200 shadow-2xs">
                       {cls.grade}
                     </div>
-                    <span className="text-xs font-mono font-bold text-slate-500 bg-slate-50 px-2.5 py-1 rounded-md border border-slate-200/80">
+                    <span className="text-xs font-mono font-bold text-slate-600 bg-slate-100/80 px-2.5 py-1 rounded-md border border-slate-200/80">
                       {cls.subjects.length} Subjects
                     </span>
                   </div>
 
-                  <div className="space-y-1">
+                  <div className="space-y-1.5">
                     <h3 className="text-xl font-extrabold text-[#0F172A] group-hover:text-indigo-600 transition-colors tracking-tight">
                       {cls.name}
                     </h3>
@@ -250,8 +250,8 @@ export default function ProductLandingPage() {
                     </p>
                   </div>
 
-                  <div className="pt-3 border-t border-slate-100 flex items-center justify-between gap-2">
-                    <span className="text-xs font-mono font-semibold text-slate-500 whitespace-nowrap">{totalLessons} Lessons</span>
+                  <div className="pt-3.5 border-t border-slate-100 flex items-center justify-between gap-2">
+                    <span className="text-xs font-mono font-semibold text-slate-600 whitespace-nowrap">{totalLessons} Lessons</span>
                     <div className="px-3.5 py-1.5 rounded-lg bg-indigo-50 group-hover:bg-indigo-600 text-indigo-600 group-hover:text-white font-bold text-xs flex items-center gap-1.5 transition-all shadow-2xs whitespace-nowrap shrink-0">
                       <span>Explore</span>
                       <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
@@ -266,11 +266,11 @@ export default function ProductLandingPage() {
       </section>
 
       {/* 3. FOUR CORE PILLARS SECTION */}
-      <section className="py-20 bg-white border-y border-[#E2E8F0]">
+      <section className="py-20 bg-[#F8FAFC] border-y border-slate-200/90">
         <div className="w-full px-6 sm:px-10 lg:px-16 max-w-[1600px] mx-auto">
           
-          <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">
-            <span className="text-xs font-bold font-mono uppercase tracking-wider text-[#4F46E5] bg-indigo-50 px-3 py-1 rounded-full border border-indigo-100">
+          <div className="text-center max-w-3xl mx-auto mb-14 space-y-3">
+            <span className="text-xs font-bold font-mono uppercase tracking-wider text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full border border-indigo-100">
               Purpose Built
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight">
@@ -283,42 +283,42 @@ export default function ProductLandingPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             
-            <div className="p-8 bg-[#F8FAFC] rounded-3xl border border-[#E2E8F0] space-y-4 hover:border-indigo-200 transition-colors">
-              <div className="w-12 h-12 rounded-2xl bg-indigo-50 text-[#4F46E5] border border-indigo-100 flex items-center justify-center">
+            <div className="p-7 bg-white rounded-2xl border border-slate-200/90 shadow-xs hover:border-indigo-300 hover:shadow-md transition-all space-y-4">
+              <div className="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 border border-indigo-100 flex items-center justify-center">
                 <GraduationCap className="w-6 h-6" />
               </div>
               <h3 className="text-lg font-bold text-[#0F172A]">State Syllabus Mapped</h3>
-              <p className="text-xs text-slate-500 leading-relaxed font-normal">
+              <p className="text-xs text-slate-600 leading-relaxed font-normal">
                 Curated specifically according to Karnataka State Board textbooks for Classes 6 through 10.
               </p>
             </div>
 
-            <div className="p-8 bg-[#F8FAFC] rounded-3xl border border-[#E2E8F0] space-y-4 hover:border-indigo-200 transition-colors">
-              <div className="w-12 h-12 rounded-2xl bg-indigo-50 text-[#4F46E5] border border-indigo-100 flex items-center justify-center">
+            <div className="p-7 bg-white rounded-2xl border border-slate-200/90 shadow-xs hover:border-indigo-300 hover:shadow-md transition-all space-y-4">
+              <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 border border-blue-100 flex items-center justify-center">
                 <Tv className="w-6 h-6" />
               </div>
               <h3 className="text-lg font-bold text-[#0F172A]">Classroom Mode</h3>
-              <p className="text-xs text-slate-500 leading-relaxed font-normal">
+              <p className="text-xs text-slate-600 leading-relaxed font-normal">
                 Distraction-free, theatre presentation mode built for smartboards, projectors, and interactive TVs.
               </p>
             </div>
 
-            <div className="p-8 bg-[#F8FAFC] rounded-3xl border border-[#E2E8F0] space-y-4 hover:border-indigo-200 transition-colors">
-              <div className="w-12 h-12 rounded-2xl bg-indigo-50 text-[#4F46E5] border border-indigo-100 flex items-center justify-center">
+            <div className="p-7 bg-white rounded-2xl border border-slate-200/90 shadow-xs hover:border-indigo-300 hover:shadow-md transition-all space-y-4">
+              <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 border border-emerald-100 flex items-center justify-center">
                 <HelpCircle className="w-6 h-6" />
               </div>
               <h3 className="text-lg font-bold text-[#0F172A]">Predefined Quizzes</h3>
-              <p className="text-xs text-slate-500 leading-relaxed font-normal">
+              <p className="text-xs text-slate-600 leading-relaxed font-normal">
                 Immediate formative assessment questions paired with lessons to test comprehension on the spot.
               </p>
             </div>
 
-            <div className="p-8 bg-[#F8FAFC] rounded-3xl border border-[#E2E8F0] space-y-4 hover:border-indigo-200 transition-colors">
-              <div className="w-12 h-12 rounded-2xl bg-indigo-50 text-[#4F46E5] border border-indigo-100 flex items-center justify-center">
+            <div className="p-7 bg-white rounded-2xl border border-slate-200/90 shadow-xs hover:border-indigo-300 hover:shadow-md transition-all space-y-4">
+              <div className="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 border border-amber-100 flex items-center justify-center">
                 <ShieldCheck className="w-6 h-6" />
               </div>
               <h3 className="text-lg font-bold text-[#0F172A]">Zero Friction</h3>
-              <p className="text-xs text-slate-500 leading-relaxed font-normal">
+              <p className="text-xs text-slate-600 leading-relaxed font-normal">
                 No student tracking, no passwords to manage, and no setup delays during live classroom lectures.
               </p>
             </div>

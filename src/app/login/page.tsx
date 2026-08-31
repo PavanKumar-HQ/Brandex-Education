@@ -10,7 +10,7 @@ import { Lock, User, ArrowRight, ShieldCheck, CheckCircle2, KeyRound } from "luc
 function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const redirectUrl = searchParams.get("redirect") || "/explore";
+  const redirectUrl = searchParams.get("redirect") || "/";
 
   const { login } = useAuth();
   const [name, setName] = useState("");
