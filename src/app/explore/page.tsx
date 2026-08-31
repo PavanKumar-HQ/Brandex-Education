@@ -8,11 +8,7 @@ export default function ExplorePage() {
       <div className="w-full px-6 sm:px-10 lg:px-16 max-w-[1600px] mx-auto space-y-12">
         
         {/* Header */}
-        <div className="border-b border-[#E2E8F0] pb-8 space-y-3">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-50 border border-indigo-100 text-[#4F46E5] text-xs font-semibold">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>Step 1 • Class Selection</span>
-          </div>
+        <div className="border-b border-[#E2E8F0] pb-8 space-y-2">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-[#0F172A] tracking-tight">
             Select Your Grade
           </h1>

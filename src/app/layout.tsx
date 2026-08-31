@@ -22,8 +22,11 @@ export const metadata: Metadata = {
   description: "Curriculum-organized educational video lessons and predefined quizzes for schools.",
   manifest: "/manifest.json",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/brandex-icon.png",
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icon.png", type: "image/png" },
+    ],
+    shortcut: "/icon.png",
     apple: "/apple-touch-icon.png",
   },
 };

@@ -89,10 +89,6 @@ export default async function ClassSubjectPage({
           
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-2">
             <div>
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-100 text-[#4F46E5] text-xs font-semibold mb-2">
-                <Sparkles className="w-3.5 h-3.5" />
-                <span>Step 2 • Subject Selection</span>
-              </div>
               <h1 className="text-4xl sm:text-5xl font-extrabold text-[#0F172A] tracking-tight">
                 {currentClass.name}
               </h1>
