@@ -59,9 +59,9 @@ export default function ExplorePage() {
                   </p>
                 </div>
 
-                <div className="pt-3.5 border-t border-slate-100 flex items-center justify-between">
-                  <span className="text-xs font-mono font-semibold text-slate-500">{totalLessons} Lessons</span>
-                  <div className="px-3.5 py-1.5 rounded-lg bg-indigo-50 group-hover:bg-indigo-600 text-indigo-600 group-hover:text-white font-bold text-xs flex items-center gap-1.5 transition-all shadow-2xs">
+                <div className="pt-3.5 border-t border-slate-100 flex items-center justify-between gap-2">
+                  <span className="text-xs font-mono font-semibold text-slate-500 whitespace-nowrap">{totalLessons} Lessons</span>
+                  <div className="px-3.5 py-1.5 rounded-lg bg-indigo-50 group-hover:bg-indigo-600 text-indigo-600 group-hover:text-white font-bold text-xs flex items-center gap-1.5 transition-all shadow-2xs whitespace-nowrap shrink-0">
                     <span>Explore</span>
                     <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
                   </div>

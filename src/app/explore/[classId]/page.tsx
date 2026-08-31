@@ -153,22 +153,22 @@ export default async function ClassSubjectPage({
                 </div>
 
                 {/* Bottom Footer Info & Action Button */}
-                <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
-                  <div className="flex items-center gap-2 text-xs font-mono font-semibold text-slate-500">
-                    <span className="flex items-center gap-1">
+                <div className="pt-4 border-t border-slate-100 flex items-center justify-between gap-2.5">
+                  <div className="flex items-center gap-1.5 text-xs font-mono font-semibold text-slate-500 whitespace-nowrap">
+                    <span className="inline-flex items-center gap-1 shrink-0">
                       <Layers className="w-3.5 h-3.5 text-slate-400" />
-                      {subject.chapters.length} Ch
+                      <span>{subject.chapters.length} Ch</span>
                     </span>
-                    <span>•</span>
-                    <span className="flex items-center gap-1">
+                    <span className="text-slate-300">•</span>
+                    <span className="inline-flex items-center gap-1 shrink-0">
                       <Video className="w-3.5 h-3.5 text-slate-400" />
-                      {totalLessons} Videos
+                      <span>{totalLessons} Videos</span>
                     </span>
                   </div>
 
-                  <div className="px-3.5 py-1.5 rounded-lg bg-indigo-50 group-hover:bg-indigo-600 text-indigo-600 group-hover:text-white font-bold text-xs flex items-center gap-1.5 transition-all shadow-2xs">
+                  <div className="px-3 py-1.5 rounded-lg bg-indigo-50 group-hover:bg-indigo-600 text-indigo-600 group-hover:text-white font-bold text-xs flex items-center gap-1.5 transition-all shadow-2xs whitespace-nowrap shrink-0">
                     <span>View Syllabus</span>
-                    <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+                    <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform shrink-0" />
                   </div>
                 </div>
               </Link>
