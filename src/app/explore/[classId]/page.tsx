@@ -122,24 +122,24 @@ export default async function ClassSubjectPage({
               <Link 
                 key={subject.slug}
                 href={`/explore/${currentClass.slug}/${subject.slug}`}
-                className={`group bg-white p-8 rounded-[2rem] border border-[#E2E8F0] ${config.glowBorder} hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col justify-between h-[360px] shadow-2xs relative overflow-hidden`}
+                className={`group bg-white p-7 rounded-2xl border border-slate-200/90 ${config.glowBorder} hover:shadow-lg transition-all duration-200 hover:-translate-y-1 flex flex-col justify-between h-[340px] shadow-xs relative overflow-hidden`}
               >
-                {/* Top Subtle Glow bar */}
-                <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-transparent via-slate-200 to-transparent group-hover:via-[#4F46E5] transition-colors" />
+                {/* Top Subtle Accent Bar */}
+                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-slate-200 to-transparent group-hover:via-indigo-500 transition-colors" />
 
                 <div>
                   {/* Icon & Subject Tag */}
-                  <div className="flex items-center justify-between mb-6">
-                    <div className={`w-18 h-18 rounded-2xl ${config.accentBg} border flex items-center justify-center transition-all duration-300 shadow-2xs group-hover:scale-105`}>
+                  <div className="flex items-center justify-between mb-5">
+                    <div className={`w-14 h-14 rounded-xl ${config.accentBg} border flex items-center justify-center transition-all duration-200 shadow-2xs group-hover:scale-105`}>
                       {config.icon}
                     </div>
 
-                    <span className={`text-[10px] font-mono font-bold px-2.5 py-1 rounded-full border ${config.tagBg}`}>
+                    <span className={`text-[10px] font-mono font-bold px-2.5 py-0.5 rounded-md border ${config.tagBg}`}>
                       KSEEB
                     </span>
                   </div>
 
-                  <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0F172A] group-hover:text-[#4F46E5] transition-colors mb-1 tracking-tight">
+                  <h2 className="text-2xl font-extrabold text-[#0F172A] group-hover:text-indigo-600 transition-colors mb-1 tracking-tight">
                     {subject.name}
                   </h2>
                   
@@ -147,13 +147,13 @@ export default async function ClassSubjectPage({
                     {config.subtitle}
                   </div>
 
-                  <p className="text-xs text-slate-400 leading-relaxed line-clamp-2">
+                  <p className="text-xs text-slate-500 leading-relaxed line-clamp-2">
                     {subject.description}
                   </p>
                 </div>
 
-                {/* Bottom Footer Info & Action */}
-                <div className="pt-5 border-t border-slate-100 flex items-center justify-between">
+                {/* Bottom Footer Info & Action Button */}
+                <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
                   <div className="flex items-center gap-2 text-xs font-mono font-semibold text-slate-500">
                     <span className="flex items-center gap-1">
                       <Layers className="w-3.5 h-3.5 text-slate-400" />
@@ -166,10 +166,10 @@ export default async function ClassSubjectPage({
                     </span>
                   </div>
 
-                  <span className={`inline-flex items-center gap-1 text-xs font-bold ${config.buttonColor} group-hover:translate-x-1 transition-transform`}>
+                  <div className="px-3.5 py-1.5 rounded-lg bg-indigo-50 group-hover:bg-indigo-600 text-indigo-600 group-hover:text-white font-bold text-xs flex items-center gap-1.5 transition-all shadow-2xs">
                     <span>View Syllabus</span>
-                    <ArrowRight className="w-4 h-4" />
-                  </span>
+                    <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+                  </div>
                 </div>
               </Link>
             );

@@ -42,7 +42,7 @@ export default async function SubjectChaptersPage({
         <div className="border-b border-[#E2E8F0] pb-8 space-y-4">
           <Link
             href={`/explore/${currentClass.slug}`}
-            className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-500 hover:text-[#4F46E5] transition-colors bg-white px-3.5 py-2 rounded-xl border border-[#E2E8F0] shadow-2xs"
+            className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-500 hover:text-[#4F46E5] transition-colors bg-white px-3.5 py-2 rounded-xl border border-[#E2E8F0] shadow-2xs cursor-pointer"
           >
             <ArrowLeft className="w-3.5 h-3.5" /> Back to {currentClass.name} Subjects
           </Link>
@@ -55,7 +55,7 @@ export default async function SubjectChaptersPage({
               </div>
               <h1 className="text-4xl sm:text-5xl font-extrabold text-[#0F172A] tracking-tight flex items-center gap-3">
                 <span>{currentSubject.name}</span>
-                <span className="text-sm font-mono font-bold text-[#4F46E5] bg-indigo-50 px-3 py-1 rounded-full border border-indigo-100">
+                <span className="text-sm font-mono font-bold text-[#4F46E5] bg-indigo-50 px-3 py-1 rounded-md border border-indigo-100">
                   {currentClass.name}
                 </span>
               </h1>
@@ -65,7 +65,7 @@ export default async function SubjectChaptersPage({
             </div>
 
             <div className="flex items-center gap-3">
-              <span className="text-xs font-semibold px-4 py-2 bg-indigo-50 text-[#4F46E5] rounded-full border border-indigo-100 font-mono">
+              <span className="text-xs font-semibold px-4 py-2 bg-indigo-50 text-[#4F46E5] rounded-lg border border-indigo-100 font-mono">
                 {currentSubject.chapters.length} Chapters • {totalLessons} Videos
               </span>
             </div>
@@ -73,83 +73,83 @@ export default async function SubjectChaptersPage({
         </div>
 
         {/* Chapters Stack */}
-        <div className="space-y-10">
+        <div className="space-y-8">
           {currentSubject.chapters.map((chapter, index) => (
-            <div key={chapter.id} className="bg-white rounded-3xl border border-[#E2E8F0] shadow-sm overflow-hidden">
+            <div key={chapter.id} className="bg-white rounded-2xl border border-slate-200/90 shadow-xs overflow-hidden">
               
               {/* Chapter Header */}
-              <div className="px-8 py-6 border-b border-[#E2E8F0] bg-gradient-to-r from-slate-50/80 via-white to-slate-50/40 flex flex-col md:flex-row md:items-center justify-between gap-4">
-                <div className="flex items-center gap-4">
-                  <span className="w-10 h-10 rounded-2xl bg-indigo-50 text-[#4F46E5] flex items-center justify-center font-extrabold font-mono text-sm border border-indigo-100 shadow-2xs">
+              <div className="px-7 py-5 border-b border-slate-100 bg-gradient-to-r from-slate-50/80 via-white to-slate-50/40 flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div className="flex items-center gap-3.5">
+                  <span className="w-9 h-9 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-extrabold font-mono text-xs border border-indigo-100/80 shadow-2xs">
                     {String(index + 1).padStart(2, '0')}
                   </span>
                   <div>
-                    <h2 className="text-xl font-extrabold text-[#0F172A] tracking-tight">
+                    <h2 className="text-lg font-extrabold text-[#0F172A] tracking-tight">
                       Chapter {index + 1}: {chapter.title}
                     </h2>
-                    <p className="text-xs sm:text-sm text-slate-500 font-medium mt-0.5">
+                    <p className="text-xs text-slate-500 font-medium mt-0.5">
                       {chapter.description}
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <span className="text-xs font-mono font-semibold text-slate-600 bg-white px-3.5 py-1.5 rounded-xl border border-[#E2E8F0] shadow-2xs">
+                  <span className="text-xs font-mono font-semibold text-slate-600 bg-white px-3 py-1.5 rounded-lg border border-slate-200/80 shadow-2xs">
                     {chapter.topics.length} Topics
                   </span>
                 </div>
               </div>
 
               {/* Topics & Lessons */}
-              <div className="p-8 space-y-8 bg-[#F9FAFB]/90">
+              <div className="p-7 space-y-7 bg-[#F9FAFB]/90">
                 {chapter.topics.map((topic) => (
-                  <div key={topic.id} className="space-y-4">
-                    <div className="flex items-center gap-2.5">
-                      <div className="w-2 h-2 rounded-full bg-[#4F46E5]" />
+                  <div key={topic.id} className="space-y-3.5">
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-indigo-600" />
                       <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-700 font-mono">
                         Topic: {topic.title}
                       </h3>
                     </div>
                     
-                    <div className="space-y-3">
+                    <div className="space-y-2.5">
                       {topic.lessons.map((lesson) => (
                         <div
                           key={lesson.id}
-                          className="flex flex-col lg:flex-row lg:items-center justify-between gap-5 p-5 rounded-2xl bg-white border border-[#E2E8F0] hover:border-indigo-200 hover:shadow-sm transition-all group"
+                          className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 p-4.5 rounded-xl bg-white border border-slate-200/90 hover:border-indigo-300 hover:shadow-xs transition-all duration-200 group"
                         >
                           {/* Left Thumbnail & Info */}
                           <div className="flex items-start gap-4 min-w-0 flex-1">
-                            <div className="relative w-28 h-18 sm:w-36 sm:h-22 rounded-2xl overflow-hidden bg-slate-100 shrink-0 border border-[#E2E8F0] shadow-2xs">
+                            <div className="relative w-28 h-18 sm:w-32 sm:h-20 rounded-xl overflow-hidden bg-slate-100 shrink-0 border border-slate-200/80 shadow-2xs">
                               <img
                                 src={`https://img.youtube.com/vi/${lesson.youtubeId}/maxresdefault.jpg`}
                                 alt={lesson.title}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                               />
                               <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
-                                <PlayCircle className="w-8 h-8 text-white drop-shadow" />
+                                <PlayCircle className="w-7 h-7 text-white drop-shadow" />
                               </div>
-                              <span className="absolute bottom-1.5 right-1.5 px-2 py-0.5 bg-black/80 text-[10px] font-mono font-bold text-white rounded-md">
+                              <span className="absolute bottom-1 right-1 px-1.5 py-0.5 bg-black/80 text-[9px] font-mono font-bold text-white rounded">
                                 {lesson.duration}
                               </span>
                             </div>
 
-                            <div className="min-w-0 space-y-1.5 flex-1">
-                              <div className="flex items-center gap-2.5 flex-wrap">
-                                <span className="text-base font-bold text-[#0F172A] group-hover:text-[#4F46E5] transition-colors leading-tight">
+                            <div className="min-w-0 space-y-1 flex-1">
+                              <div className="flex items-center gap-2 flex-wrap">
+                                <span className="text-base font-bold text-[#0F172A] group-hover:text-indigo-600 transition-colors leading-tight">
                                   {lesson.title}
                                 </span>
-                                <span className="text-[10px] font-bold text-[#4F46E5] bg-indigo-50 px-2.5 py-0.5 rounded-full font-mono border border-indigo-100">
+                                <span className="text-[10px] font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-md font-mono border border-indigo-100">
                                   HD Video
                                 </span>
                               </div>
 
-                              <p className="text-xs sm:text-sm text-slate-500 line-clamp-2 font-normal leading-relaxed">
+                              <p className="text-xs text-slate-500 line-clamp-2 font-normal leading-relaxed">
                                 {lesson.description}
                               </p>
 
                               {lesson.learningObjectives?.length > 0 && (
-                                <div className="flex items-center gap-2 pt-1 text-xs text-slate-500 font-medium">
-                                  <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                                <div className="flex items-center gap-1.5 pt-0.5 text-xs text-slate-500 font-medium">
+                                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
                                   <span className="truncate">
                                     {lesson.learningObjectives[0]}
                                   </span>
@@ -158,14 +158,14 @@ export default async function SubjectChaptersPage({
                             </div>
                           </div>
 
-                          {/* Action Buttons */}
-                          <div className="flex items-center gap-3 self-end lg:self-center shrink-0">
+                          {/* Action Button */}
+                          <div className="flex items-center gap-2 self-end lg:self-center shrink-0">
                             <Link
                               href={`/lesson/${lesson.slug}`}
-                              className="flex items-center gap-2 px-5 py-2.5 rounded-2xl bg-[#4F46E5] hover:bg-[#4338CA] text-white text-xs font-bold transition-all shadow-xs hover:shadow-indigo-600/20"
+                              className="flex items-center gap-1.5 px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold transition-all shadow-xs"
                             >
                               <span>Watch Lesson</span>
-                              <ArrowRight className="w-4 h-4" />
+                              <ArrowRight className="w-3.5 h-3.5" />
                             </Link>
                           </div>
                         </div>

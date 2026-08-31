@@ -240,19 +240,19 @@ export default function ProductLandingPage() {
                 <Link
                   key={cls.id}
                   href={`/explore/${cls.slug}`}
-                  className="group bg-white p-7 rounded-3xl border border-[#E2E8F0] hover:border-indigo-300 hover:shadow-xl hover:shadow-indigo-500/10 transition-all duration-300 hover:-translate-y-1.5 flex flex-col justify-between h-72 shadow-2xs"
+                  className="group bg-white p-6 rounded-2xl border border-slate-200/90 hover:border-indigo-400 hover:shadow-lg hover:shadow-indigo-500/10 transition-all duration-200 hover:-translate-y-1 flex flex-col justify-between h-64 shadow-xs"
                 >
                   <div className="flex items-center justify-between">
-                    <div className="w-14 h-14 rounded-2xl bg-indigo-50 group-hover:bg-[#4F46E5] text-[#4F46E5] group-hover:text-white border border-indigo-100 flex items-center justify-center font-black text-2xl transition-colors duration-300 shadow-2xs">
+                    <div className="w-12 h-12 rounded-xl bg-indigo-50 group-hover:bg-indigo-600 text-indigo-600 group-hover:text-white border border-indigo-100 flex items-center justify-center font-black text-xl transition-colors duration-200 shadow-2xs">
                       {cls.grade}
                     </div>
-                    <span className="text-xs font-mono font-bold text-slate-400 group-hover:text-[#4F46E5] transition-colors">
+                    <span className="text-xs font-mono font-bold text-slate-500 bg-slate-50 px-2.5 py-1 rounded-md border border-slate-200/80">
                       {cls.subjects.length} Subjects
                     </span>
                   </div>
 
-                  <div className="space-y-1.5">
-                    <h3 className="text-2xl font-extrabold text-[#0F172A] group-hover:text-[#4F46E5] transition-colors tracking-tight">
+                  <div className="space-y-1">
+                    <h3 className="text-xl font-extrabold text-[#0F172A] group-hover:text-indigo-600 transition-colors tracking-tight">
                       {cls.name}
                     </h3>
                     <p className="text-xs text-slate-500 line-clamp-2 font-medium">
@@ -260,11 +260,12 @@ export default function ProductLandingPage() {
                     </p>
                   </div>
 
-                  <div className="pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-[#4F46E5]">
-                    <span className="font-mono text-slate-500">{totalLessons} Lessons</span>
-                    <span className="flex items-center gap-1 group-hover:translate-x-1 transition-transform">
-                      Explore <ArrowRight className="w-4 h-4" />
-                    </span>
+                  <div className="pt-3 border-t border-slate-100 flex items-center justify-between">
+                    <span className="text-xs font-mono font-semibold text-slate-500">{totalLessons} Lessons</span>
+                    <div className="px-3.5 py-1.5 rounded-lg bg-indigo-50 group-hover:bg-indigo-600 text-indigo-600 group-hover:text-white font-bold text-xs flex items-center gap-1.5 transition-all shadow-2xs">
+                      <span>Explore</span>
+                      <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+                    </div>
                   </div>
                 </Link>
               );
