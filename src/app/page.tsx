@@ -39,56 +39,46 @@ export default function ProductLandingPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             
             {/* Left Content Column */}
-            <div className="lg:col-span-7 space-y-8">
+            <div className="lg:col-span-7 space-y-7">
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4 }}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-50/90 border border-indigo-100/90 text-[#4F46E5] text-xs font-semibold shadow-2xs backdrop-blur-sm"
-              >
-                <Sparkles className="w-3.5 h-3.5 text-[#4F46E5]" />
-                <span>Brandex Digital Learning • Karnataka State Syllabus</span>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.1 }}
                 className="space-y-4"
               >
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-[#0F172A] leading-[1.1]">
-                  Learning made simple <br />
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4F46E5] via-[#3B82F6] to-[#06B6D4]">
-                    for the classroom.
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-[#0F172A] leading-[1.08]">
+                  Digital learning <br />
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-600">
+                    built for schools.
                   </span>
                 </h1>
                 
                 <p className="text-base sm:text-lg text-slate-600 max-w-2xl font-normal leading-relaxed">
-                  Curriculum-based educational videos organized by class, subject, and chapter. Find, present, and evaluate classroom lessons with zero friction.
+                  Karnataka State Syllabus video lessons and interactive chapter assessments for Classes 6 to 10. Present on smartboards, explore modules, and evaluate comprehension with zero setup friction.
                 </p>
               </motion.div>
 
               {/* Call To Action Buttons */}
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-                className="flex flex-wrap items-center gap-4 pt-2"
+                transition={{ duration: 0.4, delay: 0.1 }}
+                className="flex flex-wrap items-center gap-3.5 pt-1"
               >
                 <Link
                   href="/explore"
-                  className="px-8 py-4 rounded-2xl bg-[#4F46E5] hover:bg-[#4338CA] text-white font-bold text-sm sm:text-base transition-all shadow-lg shadow-indigo-600/20 hover:shadow-indigo-600/30 hover:-translate-y-0.5 flex items-center gap-2.5"
+                  className="px-7 py-3.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm sm:text-base transition-all shadow-md shadow-indigo-600/20 hover:shadow-indigo-600/30 hover:-translate-y-0.5 flex items-center gap-2"
                 >
-                  <BookOpen className="w-5 h-5" />
+                  <BookOpen className="w-4 h-4" />
                   <span>Explore Curriculum</span>
                   <ArrowRight className="w-4 h-4 ml-0.5" />
                 </Link>
                 
                 <Link
                   href="/classroom"
-                  className="px-7 py-4 rounded-2xl bg-white hover:bg-slate-50 text-slate-700 font-semibold text-sm sm:text-base transition-all border border-[#E2E8F0] shadow-2xs hover:border-slate-300 flex items-center gap-2"
+                  className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 font-bold text-sm sm:text-base transition-all border border-slate-200/90 shadow-2xs hover:border-slate-300 flex items-center gap-2"
                 >
-                  <Tv className="w-4 h-4 text-[#4F46E5]" />
+                  <Tv className="w-4 h-4 text-indigo-600" />
                   <span>Launch Classroom Mode</span>
                 </Link>
               </motion.div>
@@ -97,12 +87,12 @@ export default function ProductLandingPage() {
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 0.5, delay: 0.3 }}
-                className="pt-4 flex flex-wrap items-center gap-6 text-xs font-semibold text-slate-500"
+                transition={{ duration: 0.4, delay: 0.2 }}
+                className="pt-2 flex flex-wrap items-center gap-6 text-xs font-semibold text-slate-500"
               >
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                  <span>Classes 6 to 10</span>
+                  <span>Classes 6 to 10 (KSEEB)</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600" />
@@ -117,30 +107,30 @@ export default function ProductLandingPage() {
 
             {/* Right Interactive Mockup / Product Visual Showcase */}
             <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
+              initial={{ opacity: 0, scale: 0.96 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
+              transition={{ duration: 0.5, delay: 0.15 }}
               className="lg:col-span-5 relative"
             >
-              {/* Glow backdrop */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500/15 to-sky-500/15 rounded-3xl blur-2xl -z-10" />
+              {/* Subtle ambient glow */}
+              <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500/10 to-sky-500/10 rounded-2xl blur-xl -z-10" />
 
-              {/* Visual Card */}
-              <div className="bg-white rounded-3xl border border-[#E2E8F0] shadow-xl p-6 space-y-5">
+              {/* Showcase Card */}
+              <div className="bg-white rounded-2xl border border-slate-200/90 shadow-lg p-5 space-y-4">
                 {/* Header bar of preview */}
-                <div className="flex items-center justify-between border-b border-[#E2E8F0] pb-4">
-                  <div className="flex items-center gap-2.5">
-                    <span className="w-3 h-3 rounded-full bg-rose-400" />
-                    <span className="w-3 h-3 rounded-full bg-amber-400" />
-                    <span className="w-3 h-3 rounded-full bg-emerald-400" />
+                <div className="flex items-center justify-between border-b border-slate-100 pb-3.5">
+                  <div className="flex items-center gap-2">
+                    <span className="w-2.5 h-2.5 rounded-full bg-rose-400" />
+                    <span className="w-2.5 h-2.5 rounded-full bg-amber-400" />
+                    <span className="w-2.5 h-2.5 rounded-full bg-emerald-400" />
                   </div>
-                  <span className="text-[11px] font-mono font-bold text-[#4F46E5] bg-indigo-50 px-2.5 py-1 rounded-full border border-indigo-100">
+                  <span className="text-[10px] font-mono font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded-md border border-indigo-100">
                     Live Classroom Player
                   </span>
                 </div>
 
                 {/* Video Mock Screen */}
-                <div className="relative rounded-2xl overflow-hidden aspect-video bg-slate-900 shadow-inner group">
+                <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-900 shadow-inner group">
                   {featuredLesson && (
                     <img
                       src={`https://img.youtube.com/vi/${featuredLesson.youtubeId}/maxresdefault.jpg`}
@@ -154,8 +144,8 @@ export default function ProductLandingPage() {
                     </span>
                     
                     <div className="flex items-center justify-center">
-                      <div className="w-12 h-12 rounded-full bg-white/25 backdrop-blur-md flex items-center justify-center border border-white/30 text-white shadow-lg">
-                        <Play className="w-5 h-5 fill-white ml-0.5" />
+                      <div className="w-11 h-11 rounded-full bg-white/25 backdrop-blur-md flex items-center justify-center border border-white/30 text-white shadow-lg">
+                        <Play className="w-4 h-4 fill-white ml-0.5" />
                       </div>
                     </div>
 
@@ -171,19 +161,19 @@ export default function ProductLandingPage() {
                 </div>
 
                 {/* Interactive Action Pills */}
-                <div className="grid grid-cols-2 gap-3 pt-1">
-                  <div className="p-3 bg-[#F8FAFC] rounded-xl border border-[#E2E8F0] flex items-center gap-2.5">
-                    <Tv className="w-4 h-4 text-[#4F46E5] shrink-0" />
+                <div className="grid grid-cols-2 gap-2.5 pt-0.5">
+                  <div className="p-2.5 bg-[#F8FAFC] rounded-xl border border-slate-200/80 flex items-center gap-2">
+                    <Tv className="w-4 h-4 text-indigo-600 shrink-0" />
                     <div>
                       <span className="text-[11px] font-bold text-[#0F172A] block leading-tight">Classroom Mode</span>
                       <span className="text-[10px] text-slate-500">Smartboard Ready</span>
                     </div>
                   </div>
 
-                  <div className="p-3 bg-[#F8FAFC] rounded-xl border border-[#E2E8F0] flex items-center gap-2.5">
+                  <div className="p-2.5 bg-[#F8FAFC] rounded-xl border border-slate-200/80 flex items-center gap-2">
                     <HelpCircle className="w-4 h-4 text-emerald-600 shrink-0" />
                     <div>
-                      <span className="text-[11px] font-bold text-[#0F172A] block leading-tight">Interactive Quiz</span>
+                      <span className="text-[11px] font-bold text-[#0F172A] block leading-tight">Formative Quiz</span>
                       <span className="text-[10px] text-slate-500">Instant Evaluation</span>
                     </div>
                   </div>
