@@ -22,17 +22,14 @@ import {
   BarChart3,
   MonitorPlay,
   Lightbulb,
-  Compass,
   Check,
-  X as XIcon,
 } from "lucide-react";
 import { CURRICULUM_DATA } from "@/lib/curriculum-data";
-import { GuidedTourModal, FloatingTourWidget } from "@/components/tour/GuidedTourModal";
+import { InteractiveSpotlightTour } from "@/components/tour/InteractiveSpotlightTour";
 
 export default function ProductLandingPage() {
   const [activeTab, setActiveTab] = useState<number>(0);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const [isTourOpen, setIsTourOpen] = useState<boolean>(false);
 
   const featureTabs = [
     {
@@ -243,37 +240,17 @@ export default function ProductLandingPage() {
   return (
     <div className="min-h-screen bg-[#FAFAFC] flex flex-col selection:bg-indigo-500 selection:text-white">
       
-      {/* 1. HERO SECTION (Brought down with comfortable padding, clean image blending, refined typography) */}
+      {/* 1. HERO SECTION */}
       <section className="relative overflow-hidden bg-white pt-20 sm:pt-28 pb-20 border-b border-slate-200/90">
         <div className="w-full px-6 sm:px-10 lg:px-16 max-w-[1600px] mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             
             {/* Left Content Column */}
             <div className="lg:col-span-6 space-y-7">
-              
-              {/* Mascot Welcome Greeting & Tour Trigger */}
-              <motion.div
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.3 }}
-                className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-indigo-50/90 border border-indigo-100/90 text-indigo-700 text-xs font-semibold"
-              >
-                <div className="w-6 h-6 rounded-full overflow-hidden bg-white border border-indigo-200 shadow-2xs">
-                  <img src="/mascot.png" alt="Nova" className="w-full h-full object-cover" />
-                </div>
-                <span>Hi, I'm Nova!</span>
-                <button
-                  onClick={() => setIsTourOpen(true)}
-                  className="font-bold text-indigo-600 hover:text-indigo-800 underline ml-1 cursor-pointer"
-                >
-                  Take a 1-minute tour →
-                </button>
-              </motion.div>
-
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, delay: 0.05 }}
+                transition={{ duration: 0.4 }}
                 className="space-y-4"
               >
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-slate-900 leading-[1.12]">
@@ -288,7 +265,7 @@ export default function ProductLandingPage() {
                 </p>
               </motion.div>
 
-              {/* Call To Action Buttons */}
+              {/* Call To Action Button with Spotlight Tour ID */}
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -296,6 +273,7 @@ export default function ProductLandingPage() {
                 className="flex items-center gap-4 pt-1"
               >
                 <Link
+                  id="tour-explore-cta"
                   href="/explore"
                   className="px-7 py-3.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm sm:text-base transition-all shadow-md shadow-indigo-600/20 hover:shadow-indigo-600/30 hover:-translate-y-0.5 flex items-center gap-2"
                 >
@@ -303,14 +281,6 @@ export default function ProductLandingPage() {
                   <span>Explore Curriculum</span>
                   <ArrowRight className="w-4 h-4 ml-0.5" />
                 </Link>
-
-                <button
-                  onClick={() => setIsTourOpen(true)}
-                  className="px-5 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-700 font-bold text-xs sm:text-sm transition-all border border-slate-200 shadow-2xs hover:border-slate-300 flex items-center gap-2 cursor-pointer"
-                >
-                  <Sparkles className="w-4 h-4 text-indigo-600" />
-                  <span>Quick Tour</span>
-                </button>
               </motion.div>
 
               {/* Trust Indicators */}
@@ -335,19 +305,133 @@ export default function ProductLandingPage() {
               </motion.div>
             </div>
 
-            {/* Right Hero Illustration (Blends seamlessly with background, no effect or artificial frames) */}
+            {/* Right Hero Live Interactive Smartboard UI with Spotlight Tour ID */}
             <motion.div
+              id="tour-hero-stage"
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.15 }}
-              className="lg:col-span-6 relative flex items-center justify-center"
+              className="lg:col-span-6 relative flex items-center justify-center select-none"
             >
-              <div className="relative w-full max-w-lg">
-                <img
-                  src="/hero-classroom.png"
-                  alt="Brandex Digital Classroom Smartboard Presentation"
-                  className="w-full h-auto object-contain select-none"
-                />
+              <div className="w-full max-w-lg space-y-3.5 relative">
+                
+                {/* Main Native Classroom Display Card */}
+                <div className="bg-white rounded-2xl border border-slate-200 shadow-xl shadow-indigo-500/5 p-5 sm:p-6 space-y-4 relative overflow-hidden">
+                  
+                  {/* Top Bar with Live Streaming Pulse */}
+                  <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+                    <div className="flex items-center gap-2">
+                      <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
+                      <span className="text-[11px] font-mono font-bold text-slate-700 uppercase tracking-wider">
+                        Classroom Smartboard Active
+                      </span>
+                    </div>
+
+                    <span className="text-[10px] font-mono font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded-md border border-indigo-100">
+                      Class 8 • Science (KSEEB)
+                    </span>
+                  </div>
+
+                  {/* Visual Presentation Screen */}
+                  <div className="rounded-xl bg-[#070B14] p-5 text-white space-y-4 shadow-inner relative overflow-hidden">
+                    
+                    {/* Background glow lines */}
+                    <div className="absolute top-0 right-0 w-40 h-40 bg-indigo-500/20 rounded-full blur-2xl -z-0" />
+
+                    <div className="relative z-10 flex items-center justify-between">
+                      <span className="text-[10px] font-mono text-indigo-300 font-bold bg-indigo-950/80 px-2 py-0.5 rounded border border-indigo-800/40">
+                        CHAPTER 1 • MODULE 1
+                      </span>
+                      <span className="text-[10px] font-mono text-slate-400">
+                        1080p HD Stream
+                      </span>
+                    </div>
+
+                    <div className="relative z-10 space-y-1">
+                      <h3 className="text-base sm:text-lg font-bold text-white tracking-tight">
+                        Lesson 1.1: Cell Structure & Microorganisms
+                      </h3>
+                      <p className="text-xs text-slate-400 font-normal">
+                        Karnataka State Syllabus standard animated video presentation.
+                      </p>
+                    </div>
+
+                    {/* Interactive Play Wave & Scrubber */}
+                    <div className="relative z-10 space-y-2 pt-1">
+                      <div className="flex items-center gap-1.5 h-6">
+                        {[40, 70, 90, 60, 80, 100, 75, 85, 60, 95, 80, 65, 90, 70, 85, 60, 75, 90, 50, 80].map((h, i) => (
+                          <div
+                            key={i}
+                            style={{ height: `${h}%` }}
+                            className={`flex-1 rounded-full transition-all ${
+                              i < 8 ? "bg-indigo-500" : "bg-slate-700/60"
+                            }`}
+                          />
+                        ))}
+                      </div>
+
+                      <div className="flex items-center justify-between text-[10px] font-mono text-slate-400">
+                        <span className="text-indigo-400 font-bold">04:15</span>
+                        <div className="flex items-center gap-1">
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
+                          <span>Playing on Smartboard</span>
+                        </div>
+                        <span>10:00</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Topic Badges Covered */}
+                  <div className="space-y-1.5 pt-1">
+                    <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-slate-400 block">
+                      Live Chapter Concepts:
+                    </span>
+                    <div className="flex flex-wrap gap-1.5">
+                      <span className="text-[11px] font-semibold text-slate-700 bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-200/80">
+                        🌿 Plant & Animal Cells
+                      </span>
+                      <span className="text-[11px] font-semibold text-slate-700 bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-200/80">
+                        🔬 Nucleus & DNA
+                      </span>
+                      <span className="text-[11px] font-semibold text-slate-700 bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-200/80">
+                        ⚡ Mitochondria
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Bottom Action Strip */}
+                  <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
+                    <div className="flex items-center gap-1.5 text-emerald-600 font-bold">
+                      <CheckCircle2 className="w-4 h-4" />
+                      <span>Formative Quiz Attached</span>
+                    </div>
+
+                    <Link
+                      href="/explore/class-8/science"
+                      className="font-bold text-indigo-600 hover:text-indigo-800 flex items-center gap-1"
+                    >
+                      <span>Open Module</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </Link>
+                  </div>
+
+                </div>
+
+                {/* Floating Mascot Badge on Top */}
+                <div className="absolute -top-4 -right-4 bg-white px-3.5 py-2 rounded-2xl border border-indigo-200/90 shadow-lg shadow-indigo-500/10 flex items-center gap-2.5">
+                  <div className="w-8 h-8 rounded-full overflow-hidden bg-indigo-50 border border-indigo-200 shrink-0">
+                    <img src="/mascot.png" alt="Nova" className="w-full h-full object-cover" />
+                  </div>
+                  <div>
+                    <span className="text-[10px] font-mono font-bold text-indigo-600 block uppercase leading-none">
+                      Nova Verified
+                    </span>
+                    <span className="text-xs font-bold text-slate-800">
+                      100% KSEEB Aligned
+                    </span>
+                  </div>
+                </div>
+
               </div>
             </motion.div>
 
@@ -355,8 +439,8 @@ export default function ProductLandingPage() {
         </div>
       </section>
 
-      {/* 2. INTERACTIVE TABBED FEATURE DISCOVERY SECTION */}
-      <section className="py-20 bg-white border-b border-slate-200/90">
+      {/* 2. INTERACTIVE TABBED FEATURE DISCOVERY SECTION with Spotlight Tour ID */}
+      <section id="tour-feature-tabs" className="py-20 bg-white border-b border-slate-200/90">
         <div className="w-full px-6 sm:px-10 lg:px-16 max-w-[1600px] mx-auto space-y-12">
           
           <div className="text-center max-w-3xl mx-auto space-y-3">
@@ -469,7 +553,7 @@ export default function ProductLandingPage() {
         </div>
       </section>
 
-      {/* 3. HOW WE STAND APART (Comparison Matrix replacing static pedagogy boxes) */}
+      {/* 3. HOW WE STAND APART (Comparison Matrix) */}
       <section className="py-20 bg-[#FAFAFC] border-b border-slate-200/90">
         <div className="w-full px-6 sm:px-10 lg:px-16 max-w-[1600px] mx-auto space-y-12">
           
@@ -520,8 +604,8 @@ export default function ProductLandingPage() {
         </div>
       </section>
 
-      {/* 4. CLASSES LIST VIEW SECTION */}
-      <section className="py-20 bg-white border-b border-slate-200/90">
+      {/* 4. CLASSES LIST VIEW SECTION with Spotlight Tour ID */}
+      <section id="tour-classes-list" className="py-20 bg-white border-b border-slate-200/90">
         <div className="w-full px-6 sm:px-10 lg:px-16 max-w-[1600px] mx-auto space-y-10">
           
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
@@ -729,7 +813,7 @@ export default function ProductLandingPage() {
           <p className="text-base text-slate-600 max-w-xl mx-auto font-normal">
             Choose your class and start teaching with curated video modules and assessments today.
           </p>
-          <div className="pt-2 flex flex-wrap justify-center items-center gap-4">
+          <div className="pt-2 flex justify-center items-center">
             <Link
               href="/explore"
               className="inline-flex items-center gap-2.5 px-8 py-4 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-base transition-all shadow-md shadow-indigo-600/20 hover:shadow-indigo-600/30 hover:-translate-y-0.5"
@@ -738,23 +822,12 @@ export default function ProductLandingPage() {
               <span>Explore Curriculum Library</span>
               <ArrowRight className="w-4 h-4 ml-0.5" />
             </Link>
-
-            <button
-              onClick={() => setIsTourOpen(true)}
-              className="inline-flex items-center gap-2 px-6 py-4 rounded-xl bg-white hover:bg-slate-50 text-slate-800 font-bold text-sm transition-all border border-slate-200 shadow-2xs hover:border-slate-300 cursor-pointer"
-            >
-              <Sparkles className="w-4 h-4 text-indigo-600" />
-              <span>Take Quick Tour</span>
-            </button>
           </div>
         </div>
       </section>
 
-      {/* Guided Tour Modal */}
-      <GuidedTourModal isOpen={isTourOpen} onClose={() => setIsTourOpen(false)} />
-
-      {/* Floating Tour Assistant Widget with Mascot */}
-      <FloatingTourWidget onOpenTour={() => setIsTourOpen(true)} />
+      {/* First-time Visitor Spotlight Onboarding Tour */}
+      <InteractiveSpotlightTour />
 
     </div>
   );
