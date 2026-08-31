@@ -1,237 +1,198 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { useState, Suspense } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { motion } from "framer-motion";
 import { useAuth } from "@/lib/auth-context";
 import { BrandexLogo } from "@/components/brandex/BrandexLogo";
-import { Lock, User, ArrowRight, ShieldCheck, Database, Zap } from "lucide-react";
+import { Lock, User, ArrowRight, ShieldCheck, CheckCircle2, KeyRound } from "lucide-react";
 
-const loadingSteps = [
-  { id: 1, text: "Authenticating credentials...", icon: Lock },
-  { id: 2, text: "Establishing secure connection...", icon: ShieldCheck },
-  { id: 3, text: "Syncing curriculum data...", icon: Database },
-  { id: 4, text: "Preparing workspace...", icon: Zap },
-];
+function LoginForm() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const redirectUrl = searchParams.get("redirect") || "/explore";
 
-export default function LoginPage() {
   const { login } = useAuth();
   const [name, setName] = useState("");
-  const [schoolCode, setSchoolCode] = useState("");
+  const [password, setPassword] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [loadingStep, setLoadingStep] = useState(0);
   const [error, setError] = useState("");
-
-  useEffect(() => {
-    if (isSubmitting) {
-      let currentStep = 0;
-      const interval = setInterval(() => {
-        if (currentStep < loadingSteps.length) {
-          setLoadingStep(currentStep);
-          currentStep++;
-        } else {
-          clearInterval(interval);
-          if (schoolCode.length >= 3) {
-            login(name, "teacher");
-          } else {
-            setError("Invalid school code. Please try again.");
-            setIsSubmitting(false);
-            setLoadingStep(0);
-          }
-        }
-      }, 700);
-      return () => clearInterval(interval);
-    }
-  }, [isSubmitting, name, schoolCode, login]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
 
     if (!name.trim()) {
-      setError("Please enter your name");
+      setError("Please enter your unique name or educator ID.");
       return;
     }
-    if (!schoolCode.trim()) {
-      setError("Please enter your school access code");
+
+    if (!password.trim()) {
+      setError("Please enter your access password.");
       return;
     }
 
     setIsSubmitting(true);
+
+    setTimeout(() => {
+      const success = login(name.trim(), password, "teacher");
+      if (success) {
+        router.push(redirectUrl);
+      } else {
+        setError("Authentication failed. Please check your credentials.");
+        setIsSubmitting(false);
+      }
+    }, 600);
   };
 
   return (
-    <div className="min-h-screen w-full flex items-center justify-center bg-slate-50 relative overflow-hidden selection:bg-[#4F46E5] selection:text-white">
-      {/* Animated Background Blobs */}
-      <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] rounded-full bg-blue-400/20 blur-[100px] animate-pulse" />
-      <div className="absolute bottom-[-10%] right-[-10%] w-[600px] h-[600px] rounded-full bg-indigo-400/20 blur-[120px] animate-pulse" style={{ animationDelay: "2s" }} />
+    <div className="min-h-screen w-full flex items-center justify-center bg-[#FAFAFC] relative overflow-hidden py-12 px-4 selection:bg-indigo-500 selection:text-white">
+      
+      {/* Background ambient lighting */}
+      <div className="absolute top-0 right-0 w-[600px] h-[500px] bg-gradient-to-bl from-indigo-100/60 to-transparent rounded-full blur-3xl -z-10" />
+      <div className="absolute bottom-0 left-0 w-[600px] h-[500px] bg-gradient-to-tr from-sky-100/60 to-transparent rounded-full blur-3xl -z-10" />
 
-      <div className="w-full max-w-6xl mx-auto flex flex-col md:flex-row relative z-10 bg-white/60 backdrop-blur-3xl rounded-[2rem] shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] border border-white/50 overflow-hidden m-6 h-[700px] md:h-[600px]">
+      <div className="w-full max-w-4xl bg-white rounded-2xl border border-slate-200/90 shadow-xl overflow-hidden grid grid-cols-1 md:grid-cols-12">
         
-        {/* Left Branding Panel (Light Theme) */}
-        <motion.div
-          initial={{ x: -30, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="hidden md:flex md:w-1/2 p-12 lg:p-16 flex-col justify-between relative bg-gradient-to-br from-indigo-50/50 to-white/50 border-r border-white/60"
-        >
-          <div className="relative z-10">
-            {/* The Logo is now perfectly visible against the light background */}
-            <BrandexLogo size="lg" hideSubtitle={false} />
-            
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.3, duration: 0.8 }}
-              className="mt-20 max-w-lg"
-            >
-              <h1 className="text-4xl lg:text-5xl font-black tracking-tight text-[#0F172A] leading-[1.1]">
-                Educational <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4F46E5] to-[#8B5CF6]">video library</span>
-                <br /> for schools.
+        {/* Left Presentation Column */}
+        <div className="md:col-span-6 p-8 sm:p-10 bg-gradient-to-br from-indigo-50/70 via-white to-slate-50 border-b md:border-b-0 md:border-r border-slate-200/80 flex flex-col justify-between">
+          <div className="space-y-8">
+            <BrandexLogo size="md" />
+
+            <div className="space-y-3 pt-4">
+              <h1 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight leading-tight">
+                Classroom Access <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-cyan-600">
+                  Portal.
+                </span>
               </h1>
-              <p className="mt-6 text-lg text-slate-600 font-medium">
-                Access curated NCERT syllabus content and seamless classroom presentations in one simple platform.
+              <p className="text-sm text-slate-600 font-normal leading-relaxed">
+                Sign in with your unique educator name and access password to explore Karnataka State Syllabus video modules, smartboard presentations, and quizzes.
               </p>
-            </motion.div>
+            </div>
+
+            <div className="space-y-2.5 pt-2 text-xs font-semibold text-slate-600">
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                <span>Classes 6 to 10 Syllabus & Quizzes</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                <span>Full-Screen Smartboard Theater Mode</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                <span>Offline-Ready PWA App Shell</span>
+              </div>
+            </div>
           </div>
 
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.6, duration: 1 }}
-            className="relative z-10 flex items-center gap-3 text-slate-500 text-sm font-semibold"
-          >
-            <ShieldCheck className="w-5 h-5 text-[#4F46E5]" />
-            <span>Secure Enterprise Access • © {new Date().getFullYear()}</span>
-          </motion.div>
-        </motion.div>
-
-        {/* Right Login Panel */}
-        <div className="flex-1 flex flex-col justify-center px-8 py-12 md:px-16 bg-white/80 relative z-20">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
-            className="w-full max-w-md mx-auto"
-          >
-            <div className="md:hidden mb-12 flex justify-center">
-              <BrandexLogo size="lg" />
-            </div>
-
-            <div className="mb-10 text-center md:text-left">
-              <h2 className="text-3xl font-bold tracking-tight text-[#0F172A]">Welcome Back</h2>
-              <p className="text-slate-500 mt-2">Please sign in to access your curriculum.</p>
-            </div>
-
-            <AnimatePresence mode="wait">
-              {!isSubmitting ? (
-                <motion.form 
-                  key="login-form"
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  exit={{ opacity: 0, x: 20, scale: 0.95 }}
-                  transition={{ duration: 0.4 }}
-                  onSubmit={handleSubmit} 
-                  className="space-y-6"
-                >
-                  <div className="space-y-2 group">
-                    <label htmlFor="name" className="text-[11px] font-extrabold uppercase tracking-widest text-slate-400 group-focus-within:text-[#4F46E5] transition-colors">
-                      Teacher Name
-                    </label>
-                    <div className="relative">
-                      <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-                        <User className="h-5 w-5 text-slate-400 group-focus-within:text-[#4F46E5] transition-colors" />
-                      </div>
-                      <input
-                        id="name"
-                        type="text"
-                        required
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                        className="block w-full pl-12 pr-4 py-3.5 bg-white border border-slate-200 rounded-2xl text-[#0F172A] font-bold placeholder-slate-300 focus:bg-white focus:outline-none focus:ring-4 focus:ring-[#4F46E5]/10 focus:border-[#4F46E5] transition-all shadow-sm"
-                        placeholder="e.g. Sarah Jenkins"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="space-y-2 group">
-                    <label htmlFor="code" className="text-[11px] font-extrabold uppercase tracking-widest text-slate-400 group-focus-within:text-[#4F46E5] transition-colors">
-                      School Access Code
-                    </label>
-                    <div className="relative">
-                      <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-                        <Lock className="h-5 w-5 text-slate-400 group-focus-within:text-[#4F46E5] transition-colors" />
-                      </div>
-                      <input
-                        id="code"
-                        type="password"
-                        required
-                        value={schoolCode}
-                        onChange={(e) => setSchoolCode(e.target.value)}
-                        className="block w-full pl-12 pr-4 py-3.5 bg-white border border-slate-200 rounded-2xl text-[#0F172A] font-bold placeholder-slate-300 focus:bg-white focus:outline-none focus:ring-4 focus:ring-[#4F46E5]/10 focus:border-[#4F46E5] transition-all shadow-sm"
-                        placeholder="Enter your school code"
-                      />
-                    </div>
-                  </div>
-
-                  {error && (
-                    <motion.div
-                      initial={{ opacity: 0, height: 0 }}
-                      animate={{ opacity: 1, height: "auto" }}
-                      className="text-sm font-semibold text-rose-600 bg-rose-50 p-4 rounded-xl border border-rose-100"
-                    >
-                      {error}
-                    </motion.div>
-                  )}
-
-                  <button
-                    type="submit"
-                    className="w-full pt-2"
-                  >
-                    <div className="w-full flex items-center justify-center gap-2 bg-[#4F46E5] hover:bg-[#4338CA] text-white py-4 px-6 rounded-2xl font-bold text-[15px] shadow-[0_8px_20px_-6px_rgba(79,70,229,0.5)] hover:shadow-[0_12px_24px_-6px_rgba(79,70,229,0.6)] hover:-translate-y-0.5 transition-all duration-200">
-                      <span>Access Curriculum</span>
-                      <ArrowRight className="w-4 h-4" />
-                    </div>
-                  </button>
-                </motion.form>
-              ) : (
-                <motion.div
-                  key="loading-sequence"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  className="flex flex-col items-center justify-center py-16 space-y-6"
-                >
-                  {/* Clean, neat spinner */}
-                  <div className="w-10 h-10 border-2 border-indigo-100 border-t-[#4F46E5] rounded-full animate-spin" />
-                  
-                  <div className="h-8 overflow-hidden text-center relative w-full">
-                    <AnimatePresence mode="popLayout">
-                      <motion.div
-                        key={loadingStep}
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -10 }}
-                        transition={{ duration: 0.3 }}
-                        className="absolute inset-0 flex items-center justify-center gap-2 text-slate-600 text-sm font-medium"
-                      >
-                        {loadingSteps[loadingStep] && (() => {
-                          const Icon = loadingSteps[loadingStep].icon;
-                          return (
-                            <>
-                              <Icon className="w-4 h-4 text-[#4F46E5]" />
-                              {loadingSteps[loadingStep].text}
-                            </>
-                          );
-                        })()}
-                      </motion.div>
-                    </AnimatePresence>
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </motion.div>
+          <div className="pt-8 flex items-center gap-2 text-xs font-semibold text-slate-400">
+            <ShieldCheck className="w-4 h-4 text-indigo-600" />
+            <span>Secure School Authentication</span>
+          </div>
         </div>
+
+        {/* Right Form Column */}
+        <div className="md:col-span-6 p-8 sm:p-10 flex flex-col justify-center">
+          <div className="space-y-6">
+            <div>
+              <h2 className="text-xl font-extrabold text-[#0F172A] tracking-tight">
+                Sign In to Continue
+              </h2>
+              <p className="text-xs text-slate-500 mt-1">
+                Enter your credentials below to unlock platform features.
+              </p>
+            </div>
+
+            {error && (
+              <div className="p-3.5 rounded-xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-semibold">
+                {error}
+              </div>
+            )}
+
+            <form onSubmit={handleSubmit} className="space-y-4">
+              
+              {/* Name Field */}
+              <div className="space-y-1.5">
+                <label className="text-xs font-bold text-slate-700 block">
+                  Educator / User Name
+                </label>
+                <div className="relative">
+                  <User className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                  <input
+                    type="text"
+                    required
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    placeholder="e.g. Pavan Kumar / Teacher Name"
+                    className="w-full pl-10 pr-4 py-3 rounded-xl bg-[#F8FAFC] border border-slate-200 focus:border-indigo-500 focus:bg-white text-xs font-medium text-slate-900 outline-none transition-all"
+                  />
+                </div>
+              </div>
+
+              {/* Password Field */}
+              <div className="space-y-1.5">
+                <label className="text-xs font-bold text-slate-700 block">
+                  Access Password
+                </label>
+                <div className="relative">
+                  <KeyRound className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                  <input
+                    type="password"
+                    required
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    placeholder="Enter school password"
+                    className="w-full pl-10 pr-4 py-3 rounded-xl bg-[#F8FAFC] border border-slate-200 focus:border-indigo-500 focus:bg-white text-xs font-medium text-slate-900 outline-none transition-all"
+                  />
+                </div>
+              </div>
+
+              {/* Submit Button */}
+              <button
+                type="submit"
+                disabled={isSubmitting}
+                className="w-full py-3.5 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-700 disabled:opacity-60 text-white font-bold text-xs flex items-center justify-center gap-2 transition-all shadow-md shadow-indigo-600/20 hover:shadow-indigo-600/30 cursor-pointer mt-2"
+              >
+                {isSubmitting ? (
+                  <>
+                    <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                    <span>Signing in...</span>
+                  </>
+                ) : (
+                  <>
+                    <span>Unlock Platform</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </>
+                )}
+              </button>
+
+            </form>
+
+            <div className="pt-2 text-center">
+              <p className="text-[11px] text-slate-400">
+                Brandex Digital Learning • Karnataka State Syllabus Portal
+              </p>
+            </div>
+
+          </div>
+        </div>
+
       </div>
+
     </div>
+  );
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-[#FAFAFC] flex items-center justify-center">
+        <div className="w-8 h-8 border-2 border-indigo-500 border-t-transparent rounded-full animate-spin" />
+      </div>
+    }>
+      <LoginForm />
+    </Suspense>
   );
 }

@@ -6,16 +6,20 @@ import { useRouter, usePathname } from "next/navigation";
 interface User {
   name: string;
   role: "teacher" | "admin";
+  loggedInAt: string;
 }
 
 interface AuthContextType {
   user: User | null;
-  login: (name: string, role?: "teacher" | "admin") => void;
+  login: (name: string, password?: string, role?: "teacher" | "admin") => boolean;
   logout: () => void;
   isLoading: boolean;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
+
+// Protected routes that require authentication
+const PROTECTED_PREFIXES = ["/explore", "/lesson", "/classroom", "/classes", "/admin", "/studio"];
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
@@ -36,20 +40,28 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setIsLoading(false);
   }, []);
 
-  // Route Protection for admin
+  // Route Protection: gate explore, lessons, classroom behind login
   useEffect(() => {
     if (!isLoading) {
-      if (!user && pathname.startsWith("/admin")) {
-        router.push("/login");
+      const isProtected = PROTECTED_PREFIXES.some((prefix) => pathname.startsWith(prefix));
+      if (!user && isProtected) {
+        router.push(`/login?redirect=${encodeURIComponent(pathname)}`);
       }
     }
   }, [user, isLoading, pathname, router]);
 
-  const login = (name: string, role: "teacher" | "admin" = "teacher") => {
-    const newUser = { name, role };
+  const login = (name: string, password: string = "", role: "teacher" | "admin" = "teacher"): boolean => {
+    if (!name.trim()) return false;
+    
+    const newUser: User = {
+      name: name.trim(),
+      role,
+      loggedInAt: new Date().toISOString(),
+    };
+
     setUser(newUser);
     localStorage.setItem("brandex_user", JSON.stringify(newUser));
-    router.push("/");
+    return true;
   };
 
   const logout = () => {
@@ -60,8 +72,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   return (
     <AuthContext.Provider value={{ user, login, logout, isLoading }}>
-      {/* Hide content while determining auth state to prevent flicker */}
-      {isLoading ? null : children}
+      {isLoading ? (
+        <div className="min-h-screen bg-[#070B14] flex flex-col items-center justify-center text-white">
+          <div className="w-8 h-8 border-2 border-indigo-500 border-t-transparent rounded-full animate-spin mb-3" />
+          <span className="text-xs font-mono text-slate-400">Loading Brandex Digital Learning...</span>
+        </div>
+      ) : (
+        children
+      )}
     </AuthContext.Provider>
   );
 }
