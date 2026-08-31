@@ -112,8 +112,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -126,8 +126,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -170,8 +170,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -184,8 +184,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -238,8 +238,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -252,8 +252,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -296,8 +296,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -310,8 +310,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -364,8 +364,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -378,8 +378,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -422,8 +422,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -436,8 +436,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -499,8 +499,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -513,8 +513,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -557,8 +557,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -571,8 +571,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -625,8 +625,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -639,8 +639,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -683,8 +683,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -697,8 +697,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -751,8 +751,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -765,8 +765,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -809,8 +809,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -823,8 +823,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -886,8 +886,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -900,8 +900,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -944,8 +944,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -958,8 +958,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1012,8 +1012,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1026,8 +1026,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1070,8 +1070,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1084,8 +1084,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1138,8 +1138,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1152,8 +1152,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1196,8 +1196,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1210,8 +1210,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1273,8 +1273,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1287,8 +1287,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1331,8 +1331,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1345,8 +1345,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1399,8 +1399,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1413,8 +1413,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1457,8 +1457,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1471,8 +1471,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1525,8 +1525,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1539,8 +1539,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1583,8 +1583,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1597,8 +1597,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1669,8 +1669,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1683,8 +1683,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1727,8 +1727,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1741,8 +1741,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1795,8 +1795,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1809,8 +1809,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1853,8 +1853,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1867,8 +1867,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1921,8 +1921,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1935,8 +1935,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1979,8 +1979,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -1993,8 +1993,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2056,8 +2056,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2070,8 +2070,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2114,8 +2114,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2128,8 +2128,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2182,8 +2182,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2196,8 +2196,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2240,8 +2240,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2254,8 +2254,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2308,8 +2308,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2322,8 +2322,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2366,8 +2366,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2380,8 +2380,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2443,8 +2443,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2457,8 +2457,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2501,8 +2501,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2515,8 +2515,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2569,8 +2569,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2583,8 +2583,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2627,8 +2627,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2641,8 +2641,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2695,8 +2695,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2709,8 +2709,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2753,8 +2753,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2767,8 +2767,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2830,8 +2830,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2844,8 +2844,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2888,8 +2888,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2902,8 +2902,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2956,8 +2956,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -2970,8 +2970,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3014,8 +3014,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3028,8 +3028,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3082,8 +3082,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3096,8 +3096,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3140,8 +3140,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3154,8 +3154,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3226,8 +3226,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3240,8 +3240,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3284,8 +3284,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3298,8 +3298,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3352,8 +3352,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3366,8 +3366,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3410,8 +3410,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3424,8 +3424,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3478,8 +3478,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3492,8 +3492,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3536,8 +3536,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3550,8 +3550,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3613,8 +3613,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3627,8 +3627,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3671,8 +3671,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3685,8 +3685,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3739,8 +3739,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3753,8 +3753,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3797,8 +3797,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3811,8 +3811,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3865,8 +3865,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3879,8 +3879,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3923,8 +3923,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -3937,8 +3937,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4000,8 +4000,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4014,8 +4014,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4058,8 +4058,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4072,8 +4072,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4126,8 +4126,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4140,8 +4140,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4184,8 +4184,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4198,8 +4198,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4252,8 +4252,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4266,8 +4266,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4310,8 +4310,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4324,8 +4324,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4387,8 +4387,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4401,8 +4401,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4445,8 +4445,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4459,8 +4459,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4513,8 +4513,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4527,8 +4527,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4571,8 +4571,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4585,8 +4585,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4639,8 +4639,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4653,8 +4653,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4697,8 +4697,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4711,8 +4711,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4783,8 +4783,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4797,8 +4797,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4841,8 +4841,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4855,8 +4855,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4909,8 +4909,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4923,8 +4923,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4967,8 +4967,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -4981,8 +4981,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5035,8 +5035,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5049,8 +5049,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5093,8 +5093,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5107,8 +5107,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5170,8 +5170,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5184,8 +5184,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5228,8 +5228,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5242,8 +5242,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5296,8 +5296,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5310,8 +5310,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5354,8 +5354,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5368,8 +5368,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5422,8 +5422,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5436,8 +5436,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5480,8 +5480,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5494,8 +5494,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5557,8 +5557,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5571,8 +5571,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5615,8 +5615,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5629,8 +5629,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5683,8 +5683,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5697,8 +5697,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5741,8 +5741,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5755,8 +5755,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5809,8 +5809,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5823,8 +5823,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5867,8 +5867,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5881,8 +5881,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5944,8 +5944,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -5958,8 +5958,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6002,8 +6002,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6016,8 +6016,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6070,8 +6070,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6084,8 +6084,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6128,8 +6128,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6142,8 +6142,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6196,8 +6196,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6210,8 +6210,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6254,8 +6254,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6268,8 +6268,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6340,8 +6340,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6354,8 +6354,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6398,8 +6398,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6412,8 +6412,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6466,8 +6466,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6480,8 +6480,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6524,8 +6524,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6538,8 +6538,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6592,8 +6592,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6606,8 +6606,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6650,8 +6650,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6664,8 +6664,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6727,8 +6727,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6741,8 +6741,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6785,8 +6785,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6799,8 +6799,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6853,8 +6853,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6867,8 +6867,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6911,8 +6911,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6925,8 +6925,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6979,8 +6979,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -6993,8 +6993,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7037,8 +7037,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7051,8 +7051,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Mathematics",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7114,8 +7114,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7128,8 +7128,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7172,8 +7172,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7186,8 +7186,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7240,8 +7240,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7254,8 +7254,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7298,8 +7298,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7312,8 +7312,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7366,8 +7366,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7380,8 +7380,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7424,8 +7424,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7438,8 +7438,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding Social Science",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7501,8 +7501,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7515,8 +7515,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7559,8 +7559,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7573,8 +7573,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7627,8 +7627,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7641,8 +7641,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7685,8 +7685,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7699,8 +7699,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7753,8 +7753,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 1.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7767,8 +7767,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 1.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7811,8 +7811,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-1",
                     title: "Lesson 2.1: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
@@ -7825,8 +7825,8 @@ export const CURRICULUM_DATA: ClassLevel[] = [
                     slug: "lesson-2",
                     title: "Lesson 2.2: Understanding English",
                     description: "A comprehensive lesson covering Karnataka State syllabus guidelines.",
-                    youtubeId: "dQw4w9WgXcQ", // Placeholder
-                    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    youtubeId: "1aFw5r_pS1g", // Placeholder
+                    youtubeUrl: "https://www.youtube.com/watch?v=1aFw5r_pS1g",
                     duration: "10:00",
                     durationSeconds: 600,
                     learningObjectives: ["Understand basic principles", "Apply concepts to problems"],
