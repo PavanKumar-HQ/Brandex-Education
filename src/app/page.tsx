@@ -205,10 +205,10 @@ export default function ProductLandingPage() {
 
             <Link
               href="/explore"
-              className="text-sm font-bold text-[#4F46E5] hover:text-[#4338CA] flex items-center gap-1.5 transition-colors self-start md:self-auto"
+              className="px-4 py-2 rounded-xl bg-white hover:bg-slate-50 text-indigo-600 font-bold text-xs border border-slate-200 shadow-2xs hover:border-indigo-300 flex items-center gap-1.5 transition-all self-start md:self-auto"
             >
               <span>View full curriculum</span>
-              <ArrowRight className="w-4 h-4" />
+              <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>
 
