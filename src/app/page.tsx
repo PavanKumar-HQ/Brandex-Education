@@ -212,8 +212,8 @@ export default function ProductLandingPage() {
             </Link>
           </div>
 
-          {/* 5 Grade Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
+          {/* Classes List View */}
+          <div className="space-y-3.5 max-w-5xl mx-auto">
             {CURRICULUM_DATA.map((cls) => {
               const totalLessons = cls.subjects.reduce(
                 (sum, s) =>
@@ -230,29 +230,34 @@ export default function ProductLandingPage() {
                 <Link
                   key={cls.id}
                   href={`/explore/${cls.slug}`}
-                  className="group bg-white p-6 rounded-2xl border border-slate-200/90 hover:border-indigo-500 hover:shadow-lg hover:shadow-indigo-500/10 transition-all duration-200 hover:-translate-y-1 flex flex-col justify-between h-64 shadow-xs"
+                  className="group bg-white p-5 sm:p-6 rounded-2xl border border-slate-200/90 hover:border-indigo-500 hover:shadow-lg hover:shadow-indigo-500/10 transition-all duration-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-xs hover:-translate-y-0.5"
                 >
-                  <div className="flex items-center justify-between">
-                    <div className="w-12 h-12 rounded-xl bg-indigo-50 group-hover:bg-indigo-600 text-indigo-600 group-hover:text-white border border-indigo-100 flex items-center justify-center font-black text-xl transition-colors duration-200 shadow-2xs">
+                  <div className="flex items-center gap-4">
+                    <div className="w-13 h-13 rounded-xl bg-indigo-50 group-hover:bg-indigo-600 text-indigo-600 group-hover:text-white border border-indigo-100 flex items-center justify-center font-black text-2xl transition-colors shrink-0 shadow-2xs">
                       {cls.grade}
                     </div>
-                    <span className="text-xs font-mono font-bold text-slate-600 bg-slate-100/80 px-2.5 py-1 rounded-md border border-slate-200/80">
-                      {cls.subjects.length} Subjects
-                    </span>
+
+                    <div>
+                      <div className="flex items-center gap-2.5">
+                        <h3 className="text-xl font-extrabold text-[#0F172A] group-hover:text-indigo-600 transition-colors tracking-tight">
+                          {cls.name}
+                        </h3>
+                        <span className="text-xs font-mono font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded-md border border-indigo-100">
+                          {cls.subjects.length} Core Subjects
+                        </span>
+                      </div>
+                      <p className="text-xs sm:text-sm text-slate-500 font-normal mt-0.5">
+                        {cls.description} • Karnataka State Board Syllabus
+                      </p>
+                    </div>
                   </div>
 
-                  <div className="space-y-1.5">
-                    <h3 className="text-xl font-extrabold text-[#0F172A] group-hover:text-indigo-600 transition-colors tracking-tight">
-                      {cls.name}
-                    </h3>
-                    <p className="text-xs text-slate-500 line-clamp-2 font-medium">
-                      {cls.description}
-                    </p>
-                  </div>
-
-                  <div className="pt-3.5 border-t border-slate-100 flex items-center justify-between gap-2">
-                    <span className="text-xs font-mono font-semibold text-slate-600 whitespace-nowrap">{totalLessons} Lessons</span>
-                    <div className="px-3.5 py-1.5 rounded-lg bg-indigo-50 group-hover:bg-indigo-600 text-indigo-600 group-hover:text-white font-bold text-xs flex items-center gap-1.5 transition-all shadow-2xs whitespace-nowrap shrink-0">
+                  <div className="flex items-center justify-between sm:justify-end gap-3.5 shrink-0 pt-3 sm:pt-0 border-t sm:border-t-0 border-slate-100">
+                    <div className="text-xs font-mono font-semibold text-slate-600 whitespace-nowrap bg-slate-50 px-3 py-1.5 rounded-lg border border-slate-200/70">
+                      {totalLessons} Video Lessons
+                    </div>
+                    
+                    <div className="px-5 py-2.5 rounded-xl bg-indigo-50 group-hover:bg-indigo-600 text-indigo-600 group-hover:text-white font-bold text-xs flex items-center gap-2 transition-all shadow-2xs whitespace-nowrap">
                       <span>Explore</span>
                       <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
                     </div>
