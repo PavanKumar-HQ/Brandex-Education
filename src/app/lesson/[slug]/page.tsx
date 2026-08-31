@@ -32,18 +32,18 @@ export default function LessonPage({ params }: PageProps) {
   if (!data) {
     return (
       <div className="min-h-[70vh] flex flex-col items-center justify-center p-6 text-center">
-        <div className="p-4 rounded-2xl bg-[#EEF2FF] text-[#4F46E5] mb-4">
+        <div className="p-4 rounded-xl bg-indigo-50 text-indigo-600 mb-4 border border-indigo-100">
           <BookOpen className="w-8 h-8" />
         </div>
         <h2 className="text-2xl font-bold text-[#0F172A]">Lesson Not Found</h2>
-        <p className="text-sm text-[#475569] max-w-sm mt-1 mb-6">
+        <p className="text-sm text-slate-500 max-w-sm mt-1 mb-6 font-medium">
           The requested educational module could not be found in the active curriculum catalog.
         </p>
         <Link
-          href="/"
-          className="px-6 py-3 rounded-2xl bg-[#4F46E5] text-white text-xs font-bold hover:bg-[#4338CA] transition-colors"
+          href="/explore"
+          className="px-6 py-3 rounded-xl bg-indigo-600 text-white text-xs font-bold hover:bg-indigo-700 transition-colors shadow-xs"
         >
-          Return to Curriculum Home
+          Return to Explore Curriculum
         </Link>
       </div>
     );
@@ -58,55 +58,64 @@ export default function LessonPage({ params }: PageProps) {
     currentIndex < allChapterLessons.length - 1 ? allChapterLessons[currentIndex + 1] : null;
 
   return (
-    <div className="min-h-screen bg-[#F8FAFC] flex flex-col">
-      {/* Breadcrumbs */}
-      <div className="bg-white border-b border-[#E2E8F0] py-4 px-4 lg:px-8">
-        <div className="container mx-auto max-w-6xl flex flex-wrap items-center justify-between gap-3 text-xs">
-          <div className="flex items-center gap-2 text-slate-500 font-medium">
-            <Link href="/explore" className="hover:text-[#4F46E5] flex items-center gap-1">
-              <ArrowLeft className="w-3.5 h-3.5" /> All Classes
+    <div className="min-h-screen bg-[#FAFAFC] flex flex-col selection:bg-indigo-500 selection:text-white">
+      
+      {/* Top Breadcrumb & Action Bar */}
+      <div className="bg-white border-b border-[#E2E8F0] py-4">
+        <div className="w-full px-6 sm:px-10 lg:px-16 max-w-[1600px] mx-auto flex flex-wrap items-center justify-between gap-4 text-xs">
+          
+          <div className="flex items-center gap-2 text-slate-500 font-medium flex-wrap">
+            <Link
+              href={`/explore/${classLevel.slug}/${subject.slug}`}
+              className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-600 hover:text-indigo-600 transition-colors bg-white px-3 py-1.5 rounded-lg border border-slate-200 shadow-2xs"
+            >
+              <ArrowLeft className="w-3.5 h-3.5" /> Back to {subject.name}
             </Link>
-            <span>/</span>
-            <Link href={`/explore/${classLevel.slug}`} className="hover:text-[#4F46E5]">
+            <span className="text-slate-300">/</span>
+            <Link href={`/explore/${classLevel.slug}`} className="hover:text-indigo-600 font-semibold">
               {classLevel.name}
             </Link>
-            <span>/</span>
-            <Link href={`/explore/${classLevel.slug}/${subject.slug}`} className="hover:text-[#4F46E5] font-bold text-[#4338CA]">
+            <span className="text-slate-300">/</span>
+            <span className="text-indigo-600 font-bold">
               {subject.name}
-            </Link>
-            <span>/</span>
+            </span>
+            <span className="text-slate-300">/</span>
             <span className="text-[#0F172A] font-semibold truncate max-w-xs sm:max-w-md">
               Ch {chapter.chapterNumber}: {chapter.title}
             </span>
           </div>
 
-          <div className="flex items-center gap-2.5">
+          <div className="flex items-center gap-2.5 shrink-0">
             <button
               onClick={() => setIsClassroomOpen(true)}
-              className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#4F46E5] text-white font-bold text-xs hover:bg-[#4338CA] transition-colors shadow-xs"
+              className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-indigo-600 text-white font-bold text-xs hover:bg-indigo-700 transition-colors shadow-xs cursor-pointer"
             >
               <Tv className="w-3.5 h-3.5" />
-              <span>Classroom Mode</span>
+              <span>Classroom Theater</span>
             </button>
             {lesson.quiz && (
               <button
                 onClick={() => setIsQuizOpen(true)}
-                className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-white text-[#4338CA] border border-[#E0E7FF] font-bold text-xs hover:bg-[#EEF2FF] transition-colors shadow-xs"
+                className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-200 font-bold text-xs hover:bg-emerald-100 transition-colors shadow-xs cursor-pointer"
               >
-                <HelpCircle className="w-3.5 h-3.5 text-[#4F46E5]" />
+                <HelpCircle className="w-3.5 h-3.5 text-emerald-600" />
                 <span>Take Quiz</span>
               </button>
             )}
           </div>
+
         </div>
       </div>
 
-      {/* Main Container */}
-      <div className="container mx-auto max-w-6xl px-4 lg:px-8 py-8 flex-1">
+      {/* Main Studio Workspace */}
+      <div className="w-full px-6 sm:px-10 lg:px-16 max-w-[1600px] mx-auto py-8 flex-1">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+          
           {/* Left Column: Player & Overview (8 cols) */}
           <div className="lg:col-span-8 space-y-6">
-            <div className="bg-slate-950 rounded-3xl overflow-hidden shadow-lg border border-slate-800">
+            
+            {/* Custom Brandex Player */}
+            <div className="bg-black rounded-2xl overflow-hidden shadow-xl border border-slate-800">
               <BrandexYouTubePlayer
                 videoId={lesson.youtubeId}
                 title={lesson.title}
@@ -115,11 +124,11 @@ export default function LessonPage({ params }: PageProps) {
             </div>
 
             {/* Title & Actions Bar */}
-            <div className="bg-white p-6 sm:p-8 rounded-3xl border border-[#E2E8F0] shadow-xs space-y-5">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-[#E2E8F0] pb-5">
+            <div className="bg-white p-6 sm:p-7 rounded-2xl border border-slate-200/90 shadow-xs space-y-5">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-5">
                 <div>
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-[#4338CA] bg-[#EEF2FF] px-2.5 py-0.5 rounded-md border border-[#E0E7FF]">
+                    <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded-md border border-indigo-100">
                       {classLevel.name} • {subject.name}
                     </span>
                     <span className="text-xs font-mono text-slate-400">
@@ -136,12 +145,12 @@ export default function LessonPage({ params }: PageProps) {
                   {prevLesson ? (
                     <Link
                       href={`/lesson/${prevLesson.slug}`}
-                      className="flex items-center gap-1 px-4 py-2.5 rounded-xl border border-[#E2E8F0] text-xs font-bold text-[#0F172A] hover:bg-slate-50 transition-colors"
+                      className="flex items-center gap-1 px-4 py-2 rounded-xl border border-slate-200 text-xs font-bold text-[#0F172A] hover:bg-slate-50 transition-colors shadow-2xs"
                     >
                       <ChevronLeft className="w-4 h-4" /> Prev
                     </Link>
                   ) : (
-                    <span className="px-4 py-2.5 text-xs font-bold text-slate-300 border border-[#E2E8F0] rounded-xl cursor-not-allowed">
+                    <span className="px-4 py-2 text-xs font-bold text-slate-300 border border-slate-200 rounded-xl cursor-not-allowed bg-slate-50">
                       Prev
                     </span>
                   )}
@@ -149,12 +158,12 @@ export default function LessonPage({ params }: PageProps) {
                   {nextLesson ? (
                     <Link
                       href={`/lesson/${nextLesson.slug}`}
-                      className="flex items-center gap-1 px-4 py-2.5 rounded-xl bg-[#4F46E5] text-white text-xs font-bold hover:bg-[#4338CA] transition-colors shadow-xs"
+                      className="flex items-center gap-1 px-4 py-2 rounded-xl bg-indigo-600 text-white text-xs font-bold hover:bg-indigo-700 transition-colors shadow-xs"
                     >
                       Next <ChevronRight className="w-4 h-4" />
                     </Link>
                   ) : (
-                    <span className="px-4 py-2.5 text-xs font-bold text-slate-300 border border-[#E2E8F0] rounded-xl cursor-not-allowed">
+                    <span className="px-4 py-2 text-xs font-bold text-slate-300 border border-slate-200 rounded-xl cursor-not-allowed bg-slate-50">
                       Next
                     </span>
                   )}
@@ -166,7 +175,7 @@ export default function LessonPage({ params }: PageProps) {
                 <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-slate-400">
                   Lesson Overview
                 </h3>
-                <p className="text-sm text-[#475569] leading-relaxed">
+                <p className="text-sm text-slate-600 leading-relaxed font-normal">
                   {lesson.description}
                 </p>
               </div>
@@ -181,7 +190,7 @@ export default function LessonPage({ params }: PageProps) {
                     {lesson.learningObjectives.map((obj, i) => (
                       <div
                         key={i}
-                        className="flex items-start gap-3 p-3.5 rounded-2xl bg-[#F8FAFC] border border-[#E2E8F0] text-xs text-[#0F172A] font-medium"
+                        className="flex items-start gap-3 p-3.5 rounded-xl bg-[#F8FAFC] border border-slate-200/80 text-xs text-[#0F172A] font-medium"
                       >
                         <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
                         <span>{obj}</span>
@@ -191,15 +200,17 @@ export default function LessonPage({ params }: PageProps) {
                 </div>
               )}
             </div>
+
           </div>
 
           {/* Right Column: Playlist (4 cols) */}
           <div className="lg:col-span-4 space-y-6">
-            <div className="bg-white rounded-3xl border border-[#E2E8F0] shadow-xs overflow-hidden sticky top-24">
-              <div className="p-5 border-b border-[#E2E8F0] bg-[#F8FAFC]">
+            <div className="bg-white rounded-2xl border border-slate-200/90 shadow-xs overflow-hidden sticky top-24">
+              
+              <div className="p-5 border-b border-slate-100 bg-[#F8FAFC]">
                 <div className="flex items-center gap-2">
-                  <Layers className="w-4 h-4 text-[#4F46E5]" />
-                  <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-[#0F172A]">
+                  <Layers className="w-4 h-4 text-indigo-600" />
+                  <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-slate-600">
                     Chapter Syllabus Modules
                   </h3>
                 </div>
@@ -208,24 +219,24 @@ export default function LessonPage({ params }: PageProps) {
                 </p>
               </div>
 
-              <div className="divide-y divide-[#E2E8F0] max-h-[60vh] overflow-y-auto p-2">
+              <div className="divide-y divide-slate-100 max-h-[55vh] overflow-y-auto p-2">
                 {allChapterLessons.map((item, idx) => {
                   const isActive = item.id === lesson.id;
                   return (
                     <Link
                       key={item.id}
                       href={`/lesson/${item.slug}`}
-                      className={`flex items-start gap-3.5 p-3.5 rounded-2xl transition-all ${
+                      className={`flex items-start gap-3.5 p-3.5 rounded-xl transition-all ${
                         isActive
-                          ? "bg-[#EEF2FF] border border-[#C7D2FE] text-[#4338CA] font-bold"
+                          ? "bg-indigo-50 border border-indigo-200 text-indigo-700 font-bold shadow-2xs"
                           : "hover:bg-[#F8FAFC] text-slate-700"
                       }`}
                     >
                       <div
                         className={`w-7 h-7 rounded-lg flex items-center justify-center text-xs font-bold shrink-0 font-mono ${
                           isActive
-                            ? "bg-[#4F46E5] text-white"
-                            : "bg-[#F1F5F9] text-slate-600"
+                            ? "bg-indigo-600 text-white"
+                            : "bg-slate-100 text-slate-600"
                         }`}
                       >
                         {(idx + 1).toString().padStart(2, "0")}
@@ -251,20 +262,23 @@ export default function LessonPage({ params }: PageProps) {
                 })}
               </div>
 
-              <div className="p-4 bg-[#F8FAFC] border-t border-[#E2E8F0]">
+              <div className="p-4 bg-[#F8FAFC] border-t border-slate-100">
                 <button
                   onClick={() => setIsClassroomOpen(true)}
-                  className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-2xl bg-[#0F172A] hover:bg-[#1E293B] text-white text-xs font-bold transition-colors shadow-xs"
+                  className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-[#0F172A] hover:bg-[#1E293B] text-white text-xs font-bold transition-colors shadow-xs cursor-pointer"
                 >
-                  <Tv className="w-4 h-4 text-[#818CF8]" />
-                  <span>Open in Classroom Mode</span>
+                  <Tv className="w-4 h-4 text-indigo-400" />
+                  <span>Open in Classroom Theater</span>
                 </button>
               </div>
+
             </div>
           </div>
+
         </div>
       </div>
 
+      {/* Classroom Mode Modal */}
       {isClassroomOpen && (
         <ClassroomModeModal
           lesson={lesson}
@@ -278,6 +292,7 @@ export default function LessonPage({ params }: PageProps) {
         />
       )}
 
+      {/* Quiz Modal */}
       {lesson.quiz && isQuizOpen && (
         <QuizRunnerModal
           quiz={lesson.quiz}
@@ -285,6 +300,7 @@ export default function LessonPage({ params }: PageProps) {
           onClose={() => setIsQuizOpen(false)}
         />
       )}
+
     </div>
   );
 }
