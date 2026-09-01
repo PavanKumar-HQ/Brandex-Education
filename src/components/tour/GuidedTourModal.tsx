@@ -97,7 +97,7 @@ export function GuidedTourModal({ isOpen, onClose }: GuidedTourModalProps) {
           <div className="flex items-center gap-3.5">
             <div className="w-14 h-14 rounded-2xl overflow-hidden bg-white border border-indigo-100 shadow-sm flex items-center justify-center shrink-0">
               <img
-                src="/mascot.png"
+                src="/mascot.webp"
                 alt="Nova - Brandex Tour Guide"
                 className="w-full h-full object-cover"
               />
@@ -212,7 +212,7 @@ export function FloatingTourWidget({ onOpenTour }: { onOpenTour: () => void }) {
       >
         <div className="w-9 h-9 rounded-full overflow-hidden bg-indigo-50 border border-indigo-200/80 shadow-2xs relative">
           <img
-            src="/mascot.png"
+            src="/mascot.webp"
             alt="Nova"
             className="w-full h-full object-cover"
           />

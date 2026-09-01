@@ -17,7 +17,7 @@ export function BrandexLogo({ size = "md", className = "", hideSubtitle = false 
   return (
     <Link href="/" className={`inline-flex items-center gap-3 group select-none ${className}`}>
       <img
-        src="/brandex-logo-latest.png"
+        src="/brandex-logo.webp"
         alt="Brandex"
         className={`${heightClasses[size]} w-auto object-contain transition-transform duration-200 group-hover:scale-105`}
       />

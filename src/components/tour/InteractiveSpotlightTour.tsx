@@ -160,7 +160,7 @@ export function InteractiveSpotlightTour() {
           <div className="flex items-start justify-between gap-3 border-b border-slate-100 pb-3">
             <div className="flex items-center gap-2.5">
               <div className="w-10 h-10 rounded-full overflow-hidden bg-indigo-50 border border-indigo-200 shadow-2xs shrink-0">
-                <img src="/mascot.png" alt="Nova" className="w-full h-full object-cover" />
+                <img src="/mascot.webp" alt="Nova" className="w-full h-full object-cover" />
               </div>
               <div>
                 <span className="text-[10px] font-mono font-bold text-indigo-600 uppercase tracking-wider block">

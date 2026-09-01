@@ -305,7 +305,7 @@ export default function ProductLandingPage() {
               </motion.div>
             </div>
 
-            {/* Right Hero Live Interactive Smartboard UI with Spotlight Tour ID */}
+            {/* Right Hero Teacher Teaching Illustration (Blends 100% naturally with pure white background) */}
             <motion.div
               id="tour-hero-stage"
               initial={{ opacity: 0, scale: 0.98 }}
@@ -313,125 +313,14 @@ export default function ProductLandingPage() {
               transition={{ duration: 0.5, delay: 0.15 }}
               className="lg:col-span-6 relative flex items-center justify-center select-none"
             >
-              <div className="w-full max-w-lg space-y-3.5 relative">
-                
-                {/* Main Native Classroom Display Card */}
-                <div className="bg-white rounded-2xl border border-slate-200 shadow-xl shadow-indigo-500/5 p-5 sm:p-6 space-y-4 relative overflow-hidden">
-                  
-                  {/* Top Bar with Live Streaming Pulse */}
-                  <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-                    <div className="flex items-center gap-2">
-                      <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
-                      <span className="text-[11px] font-mono font-bold text-slate-700 uppercase tracking-wider">
-                        Classroom Smartboard Active
-                      </span>
-                    </div>
-
-                    <span className="text-[10px] font-mono font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded-md border border-indigo-100">
-                      Class 8 • Science (KSEEB)
-                    </span>
-                  </div>
-
-                  {/* Visual Presentation Screen */}
-                  <div className="rounded-xl bg-[#070B14] p-5 text-white space-y-4 shadow-inner relative overflow-hidden">
-                    
-                    {/* Background glow lines */}
-                    <div className="absolute top-0 right-0 w-40 h-40 bg-indigo-500/20 rounded-full blur-2xl -z-0" />
-
-                    <div className="relative z-10 flex items-center justify-between">
-                      <span className="text-[10px] font-mono text-indigo-300 font-bold bg-indigo-950/80 px-2 py-0.5 rounded border border-indigo-800/40">
-                        CHAPTER 1 • MODULE 1
-                      </span>
-                      <span className="text-[10px] font-mono text-slate-400">
-                        1080p HD Stream
-                      </span>
-                    </div>
-
-                    <div className="relative z-10 space-y-1">
-                      <h3 className="text-base sm:text-lg font-bold text-white tracking-tight">
-                        Lesson 1.1: Cell Structure & Microorganisms
-                      </h3>
-                      <p className="text-xs text-slate-400 font-normal">
-                        Karnataka State Syllabus standard animated video presentation.
-                      </p>
-                    </div>
-
-                    {/* Interactive Play Wave & Scrubber */}
-                    <div className="relative z-10 space-y-2 pt-1">
-                      <div className="flex items-center gap-1.5 h-6">
-                        {[40, 70, 90, 60, 80, 100, 75, 85, 60, 95, 80, 65, 90, 70, 85, 60, 75, 90, 50, 80].map((h, i) => (
-                          <div
-                            key={i}
-                            style={{ height: `${h}%` }}
-                            className={`flex-1 rounded-full transition-all ${
-                              i < 8 ? "bg-indigo-500" : "bg-slate-700/60"
-                            }`}
-                          />
-                        ))}
-                      </div>
-
-                      <div className="flex items-center justify-between text-[10px] font-mono text-slate-400">
-                        <span className="text-indigo-400 font-bold">04:15</span>
-                        <div className="flex items-center gap-1">
-                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-                          <span>Playing on Smartboard</span>
-                        </div>
-                        <span>10:00</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Topic Badges Covered */}
-                  <div className="space-y-1.5 pt-1">
-                    <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-slate-400 block">
-                      Live Chapter Concepts:
-                    </span>
-                    <div className="flex flex-wrap gap-1.5">
-                      <span className="text-[11px] font-semibold text-slate-700 bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-200/80">
-                        🌿 Plant & Animal Cells
-                      </span>
-                      <span className="text-[11px] font-semibold text-slate-700 bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-200/80">
-                        🔬 Nucleus & DNA
-                      </span>
-                      <span className="text-[11px] font-semibold text-slate-700 bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-200/80">
-                        ⚡ Mitochondria
-                      </span>
-                    </div>
-                  </div>
-
-                  {/* Bottom Action Strip */}
-                  <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-                    <div className="flex items-center gap-1.5 text-emerald-600 font-bold">
-                      <CheckCircle2 className="w-4 h-4" />
-                      <span>Formative Quiz Attached</span>
-                    </div>
-
-                    <Link
-                      href="/explore/class-8/science"
-                      className="font-bold text-indigo-600 hover:text-indigo-800 flex items-center gap-1"
-                    >
-                      <span>Open Module</span>
-                      <ArrowRight className="w-3.5 h-3.5" />
-                    </Link>
-                  </div>
-
-                </div>
-
-                {/* Floating Mascot Badge on Top */}
-                <div className="absolute -top-4 -right-4 bg-white px-3.5 py-2 rounded-2xl border border-indigo-200/90 shadow-lg shadow-indigo-500/10 flex items-center gap-2.5">
-                  <div className="w-8 h-8 rounded-full overflow-hidden bg-indigo-50 border border-indigo-200 shrink-0">
-                    <img src="/mascot.png" alt="Nova" className="w-full h-full object-cover" />
-                  </div>
-                  <div>
-                    <span className="text-[10px] font-mono font-bold text-indigo-600 block uppercase leading-none">
-                      Nova Verified
-                    </span>
-                    <span className="text-xs font-bold text-slate-800">
-                      100% KSEEB Aligned
-                    </span>
-                  </div>
-                </div>
-
+              <div className="relative w-full max-w-xl">
+                <img
+                  src="/hero-teacher.webp"
+                  alt="Teacher presenting interactive lesson with Brandex Digital Curriculum"
+                  className="w-full h-auto object-contain select-none"
+                  loading="eager"
+                  decoding="async"
+                />
               </div>
             </motion.div>
 

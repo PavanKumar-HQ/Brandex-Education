@@ -39,7 +39,7 @@ export function BrandexFooter() {
           <div className="lg:col-span-4 space-y-6">
             <Link href="/" className="inline-flex items-center gap-2">
               <img
-                src="/brandex-logo-white.png"
+                src="/brandex-footer-logo.webp"
                 alt="Brandex"
                 className="h-8 w-auto object-contain"
               />
@@ -258,7 +258,7 @@ export function BrandexFooter() {
           >
             <span className="text-slate-400 group-hover:text-slate-200">A PRODUCT OF</span>
             <img
-              src="/brandex-logo-white.png"
+              src="/brandex-footer-logo.webp"
               alt="Brandex"
               className="h-5 w-auto object-contain transition-transform group-hover:scale-105"
             />
